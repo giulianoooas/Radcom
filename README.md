@@ -12,6 +12,7 @@ where componentName should be component name, and css related just for this comp
 
 - in global-styles should be just css related to all application
 - for js we will use camelCase notation (ex: nameVariable) and for css we will use snakeCase (ex: name_variable)
+- commits messages should be clear and related with changes to prevent future bugs
 
 ### Commands:
 
