@@ -8,7 +8,7 @@
                  - componentName.component.css
 ```
 
-where componentName should be exact component name, and css related just for this component should be in this folder too
+where componentName should be component name, and css related just for this component should be in this folder too
 
 - in global-styles should be just css related to all application
 - for js we will use camelCase notation (ex: nameVariable) and for css we will use snakeCase (ex: name_variable)
