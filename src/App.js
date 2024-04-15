@@ -2,6 +2,8 @@ import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import "./js/wow.min";
+
 // custom global css import
 import "./global-styles/styles.css";
 import "./global-styles/animate.min.css";
