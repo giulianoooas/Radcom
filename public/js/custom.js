@@ -1,48 +1,40 @@
 // to get current year
 import $ from "jquery";
 
-function getYear() {
-  var currentDate = new Date();
-  var currentYear = currentDate.getFullYear();
-  document.querySelector("#displayYear").innerHTML = currentYear;
-}
-
-getYear();
-
-const scrollers = document.querySelectorAll(".scroller");
-
-if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-  // eslint-disable-next-line no-undef
-  addAnimation();
-}
-
-//  owl carousel script
-$(".owl-carousel").owlCarousel({
-  loop: true,
-  margin: 20,
-  nav: true,
-  navText: [],
-  autoplay: true,
-  autoplayHoverPause: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    1000: {
-      items: 2,
-    },
-  },
+/* jQuery Pre loader
+  -----------------------------------------------*/
+$(window).load(function () {
+  $(".preloader").fadeOut(1000); // set duration in brackets
 });
 
-//    end owl carousel script
+$(document).ready(function () {
+  /* Home Slideshow Vegas
+  -----------------------------------------------*/
+  $(function () {
+    $("body").vegas({
+      slides: [{ src: "images/slide-1.jpg" }, { src: "images/slide-2.jpg" }],
+      timer: false,
+      transition: ["zoomOut"],
+    });
+  });
 
-/** google_map js **/
-function myMap() {
-  var mapProp = {
-    // eslint-disable-next-line no-undef
-    center: new google.maps.LatLng(40.712775, -74.005973),
-    zoom: 18,
-  };
+  /* Back top
+  -----------------------------------------------*/
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+      $(".go-top").fadeIn(200);
+    } else {
+      $(".go-top").fadeOut(200);
+    }
+  });
+  // Animate the scroll to top
+  $(".go-top").click(function (event) {
+    event.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, 300);
+  });
+
+  /* wow
+  -------------------------------*/
   // eslint-disable-next-line no-undef
-  var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
+  new WOW({ mobile: false }).init();
+});
