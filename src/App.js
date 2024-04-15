@@ -1,8 +1,12 @@
 import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+// import css
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./js/wow.min";
+// import js
+import "jquery/dist/jquery.min.js";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "wowjs/dist/wow.min.js";
 
 // custom global css import
 import "./global-styles/styles.css";
@@ -28,6 +32,17 @@ function App() {
         </Routes>
       </HashRouter>
       <Footer />
+      {/* <Helmet>
+        <script src="jquery/dist/jquery.js" type="text/javascript"></script>
+        <script
+          src="bootstrap/dist/js/bootstrap.bundle.min.js"
+          type="text/javascript"
+        ></script>
+        <script src="vegas/dist/vegas.min.js" type="text/javascript"></script>
+        <script src="wowjs/dist/wow.js" type="text/javascript"></script>
+        <script src="js/smoothscroll.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+      </Helmet> */}
     </div>
   );
 }
