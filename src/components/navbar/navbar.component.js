@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import "./navbar.component.css";
-import logo from "../../assests/logoPar.png";
+import logo from "../../assets/logoPar.png";
 
 export const Navbar = () => {
   const location = useLocation();
