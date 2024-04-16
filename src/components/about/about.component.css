@@ -6,3 +6,8 @@
   padding-top: 10px;
 }
 
+#about .img-responsive{
+  height: 600px;
+  aspect-ratio: auto 600 / 250;
+   width: 600px;
+}

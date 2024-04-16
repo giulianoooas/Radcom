@@ -1,4 +1,5 @@
 import "./about.component.css";
+import aboutImage from "./../../assets/about-img.png"
 
 export const About = () => {
     return <section id="about">
@@ -6,7 +7,7 @@ export const About = () => {
 		<div className="row">
 
       <div className="col-md-6 col-sm-12">
-        <img src="src/assets/about-img.png" className="img-responsive wow fadeInUp" alt="About" height="250" width="600"></img>
+        <img src={aboutImage} className="img-responsive wow fadeInUp" alt="About"></img>
       </div>
 
 			<div className="col-md-6 col-sm-12">

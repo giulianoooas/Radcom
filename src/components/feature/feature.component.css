@@ -33,4 +33,26 @@
     border-color: transparent;
   }
   
+  .service-logo{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 20px;
+  }
   
+  .media-left{
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+
+  .dark{
+    color:black;
+  }
+
+  .center{
+    display: grid;
+    place-items: center;
+  }
