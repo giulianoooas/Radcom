@@ -53,6 +53,7 @@
   z-index: 1;
 }
 
-.container {
+.home-container {
   z-index: 2;
+  margin-left: 30%;
 }
