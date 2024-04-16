@@ -25,7 +25,7 @@ export const Landing = () => {
         alt="slide image"
         className="slide-image"
       />
-      <div className="container">
+      <div className="container home-container">
         <div className="row">
           <div className="col-md-offset-2 col-md-8 col-sm-12">
             <div className="home-thumb">
