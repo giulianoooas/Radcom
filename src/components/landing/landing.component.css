@@ -1,0 +1,49 @@
+#home {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+          align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: #ffffff;
+  }
+  
+  #home .home-thumb {
+    text-align: center;
+  }
+  
+  .background{
+    background-color: #11111290!important;
+  }
+  
+  #home .btn {
+      background: transparent;
+      border: 3px solid #ffffff;
+      border-radius: 0px;
+      color: #ffffff;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 14px 36px;
+      margin-top: 42px;
+      margin-right: 16px;
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+  }
+  
+  
+
+  #home .btn:hover {
+    background: #f1c11a;
+    color: #ffffff;
+    border-color: transparent;
+  }
+  
+  #home .btn-success {
+      background: #ffffff;
+      color: #242424;
+      border-color: transparent;
+  }

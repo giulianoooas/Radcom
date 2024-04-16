@@ -69,6 +69,22 @@ strong {
   font-weight: 700;
 }
 
+.main-color{
+  color: #1c3f95;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 #about,
 #feature,
 #contact {
