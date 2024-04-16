@@ -7,7 +7,6 @@
 }
 
 #about .img-responsive{
-  height: 600px;
-  aspect-ratio: auto 600 / 250;
-   width: 600px;
+  height: 40rem;
+  width: 35rem;
 }
