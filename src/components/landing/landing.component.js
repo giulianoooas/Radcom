@@ -4,15 +4,23 @@ import slide1 from "./../../assets/slide-1.jpg";
 import slide2 from "./../../assets/slide-2.jpg";
 
 export const Landing = () => {
+  const defaultClass = "slide-image";
   const slideImages = [slide1, slide2];
-  const [currentSlideIdx, setCurrentSlideIdx] = useState(0);
+  const [imagesClasses, setImageClasses] = useState([
+    defaultClass,
+    `${defaultClass} hidden`,
+  ]);
   let lastIdx = 0;
 
   useEffect(() => {
     const timer = setInterval(() => {
+      const newImagesClasses = [];
+      slideImages.forEach(() => newImagesClasses.push(defaultClass));
+      newImagesClasses[lastIdx] = `${defaultClass} hidden`;
       lastIdx = (lastIdx + 1) % slideImages.length;
-      setCurrentSlideIdx(lastIdx);
-    }, 2000);
+      newImagesClasses[lastIdx] = `${defaultClass} shown`;
+      setImageClasses(newImagesClasses);
+    }, 4000);
     return () => {
       clearInterval(timer);
     };
@@ -20,11 +28,8 @@ export const Landing = () => {
 
   return (
     <section id="home">
-      <img
-        src={slideImages[currentSlideIdx]}
-        alt="slide image"
-        className="slide-image"
-      />
+      <img src={slideImages[0]} alt="slide 1" className={imagesClasses[0]} />
+      <img src={slideImages[1]} alt="slide 2" className={imagesClasses[1]} />
       <div className="container home-container">
         <div className="row">
           <div className="col-md-offset-2 col-md-8 col-sm-12">
