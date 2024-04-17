@@ -1,12 +1,36 @@
 #about h3 {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 #about .about-thumb {
   padding-top: 10px;
 }
 
-#about .img-responsive{
-  height: 40rem;
-  width: 35rem;
+.about-section-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#about .img-responsive {
+  width: 100%;
+}
+
+.about-section-container > .image-container {
+  width: 49%;
+}
+
+.about-section-container > .text-container {
+  width: 49%;
+}
+
+@media screen and (min-width: 1600px) {
+  .about-section-container > .image-container {
+    width: 40%;
+  }
+
+  .about-section-container > .text-container {
+    width: 55%;
+  }
 }
