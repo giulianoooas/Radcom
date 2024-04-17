@@ -17,6 +17,7 @@ import "./global-styles/font-awesome.min.css";
 // component imports
 import { Footer } from "./components/footer/footer.component";
 import { HomePage } from "./components/home-page/home-page.component";
+import { ServicePage } from "./components/service-page/service-page.component";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route path="/home" element={<HomePage />} />
+          <Route path="services/:serviceName" element={<ServicePage />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </HashRouter>
