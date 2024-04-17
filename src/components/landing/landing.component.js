@@ -20,7 +20,7 @@ export const Landing = () => {
       lastIdx = (lastIdx + 1) % slideImages.length;
       newImagesClasses[lastIdx] = `${defaultClass} shown`;
       setImageClasses(newImagesClasses);
-    }, 4000);
+    }, 6000);
     return () => {
       clearInterval(timer);
     };

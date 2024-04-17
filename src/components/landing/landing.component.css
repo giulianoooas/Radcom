@@ -55,12 +55,12 @@
 
 .hidden {
   opacity: 0;
-  transition: 1s;
+  transition: 2s;
 }
 
 .shown {
   opacity: 1;
-  transition: 1s;
+  transition: 2s;
 }
 
 .landing-container {
