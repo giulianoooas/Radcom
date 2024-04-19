@@ -1,126 +1,134 @@
-.navbar{
-    height: 10vh;
-    background-color: #434850;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    z-index: 2;
+.navbar {
+  height: 10vh;
+  background-color: #434850;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
-.landing-section{
-    height: 85vh;
-    background-color: #D1CD4D;
-    display: flex;
-    text-align: center;
-    align-items: center;
+.services {
+  margin-bottom: 1rem;
 }
 
-.introduction{
-    padding-top: 5vh;
-    width: 65vw;
-    margin-left: auto;
-    margin-right: auto;
+.landing-section {
+  height: 85vh;
+  background-color: #d1cd4d;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-.title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    width: 100%;
+.introduction {
+  padding-top: 5vh;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text{
-    color: #ffffff;
-    font-size: 1vw;
-    padding-top: 1.8vw;
-    letter-spacing: 0.8px;
-    line-height: 28px;
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  width: 100%;
 }
 
-.logo{
-    height: 10rem;
-    width: 10rem;
-    padding-top: 5vh;
-    padding-left: 2vw;
+.text {
+  color: #ffffff;
+  font-size: 1vw;
+  padding-top: 1.8vw;
+  letter-spacing: 0.8px;
+  line-height: 28px;
 }
 
-.spacing{
-    height: 15vh;
-    width: 100%;
-    background: linear-gradient(to bottom right, #D1CD4D 50%, #ffffff 50%);
+.logo {
+  height: 10rem;
+  width: 10rem;
+  padding-top: 5vh;
+  padding-left: 2vw;
 }
 
+.spacing {
+  height: 15vh;
+  width: 100%;
+  background: linear-gradient(to bottom right, #d1cd4d 50%, #ffffff 50%);
+}
 
 .services .svgcolor-light > path {
-    fill: #D1CD4D;
-    stroke: #D1CD4D;
-    stroke-width: 0;
+  fill: #d1cd4d;
+  stroke: #d1cd4d;
+  stroke-width: 0;
 }
 
-.main{
-    height: 80vh;
-    width: 100%;
-    padding-top: 100px;
-    background: #ffffff;
+.main {
+  height: 80vh;
+  width: 100%;
+  padding-top: 100px;
+  background: #ffffff;
 }
 
-.secondary{
-    height: 80vh;
-    width: 100%;
-    padding-top: 100px;
-    background: #D1CD4D;
+.secondary {
+  height: 80vh;
+  width: 100%;
+  padding-top: 100px;
+  background: #d1cd4d;
 }
 
 .secondary .svgcolor-light > path {
-    fill: #ffffff;
-    stroke: #ffffff;
-    stroke-width: 0;
+  fill: #ffffff;
+  stroke: #ffffff;
+  stroke-width: 0;
 }
 
-.containerz{
-    display: flex;
-    height: 25rem;
-    width: 85vw;
-    padding-right: 5vw;
-    padding-left: 10vw;
+.containerz {
+  display: flex;
+  height: 25rem;
+  width: 85vw;
+  padding-right: 5vw;
+  padding-left: 10vw;
 }
 
-.info{
-    padding-left: 10vh;
+.info {
+  padding-left: 10vh;
 }
 
-.service-name{
-    font-size: 2.8rem;
-    font-weight: 700;
+.service-name {
+  font-size: 2.8rem;
+  font-weight: 700;
 }
 
-.slogan{
-    margin-top: -0.5vh;
-    padding-left: 0.7vw;
+.slogan {
+  margin-top: -0.5vh;
+  padding-left: 0.7vw;
 }
 
-.description{
-    font-size: 1vw;
-    padding-top: 1.8vw;
-    letter-spacing: 0.8px;
-    line-height: 28px;
+.description {
+  font-size: 1vw;
+  padding-top: 1.8vw;
+  letter-spacing: 0.8px;
+  line-height: 28px;
 }
 
 .btn {
-    background: transparent;
-    border: 3px solid #D1CD4D;
-    border-radius: 0px;
-    color: #D1CD4D;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding: 14px 36px;
-    margin-top: 62px;
-    margin-right: 16px;
-    transition: all 0.4s ease-in-out;
-    cursor: pointer;
+  background: transparent;
+  border: 3px solid #d1cd4d;
+  border-radius: 0px;
+  color: #d1cd4d;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 14px 36px;
+  margin-top: 62px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 
-.btn:hover{
-    background-color: #D1CD4D;
-    color: #ffffff;
+.btn:hover {
+  background-color: #d1cd4d;
+  color: #ffffff;
+}
+
+.secondary button {
+  color: #ffffff;
+  border-color: #ffffff;
 }
