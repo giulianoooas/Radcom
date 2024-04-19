@@ -1,4 +1,4 @@
-import { ServicesLanding } from "../services-landing/services-landing";
+import { ServicesLanding } from "../services-landing/services-landing.component";
 
 export const ServicePage = () => {
   return (
@@ -6,4 +6,4 @@ export const ServicePage = () => {
       <ServicesLanding />
     </div>
   );
-}
+};

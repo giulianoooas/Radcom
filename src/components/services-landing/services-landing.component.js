@@ -1,6 +1,4 @@
-/* eslint-disable jsx-a11y/alt-text */
-import { useEffect, useRef } from "react";
-import "./services-landing.css";
+import "./services-landing.component.css";
 
 const defaultService = {
   imgSrc: "https://dummyimage.com/600x400/ededed/#1c3f9.png",
@@ -18,22 +16,6 @@ const defaultService = {
 };
 
 const introductionText = defaultService.text;
-
-function reveal() {
-  var reveals = document.querySelectorAll(".reveal");
-
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var revealTop = reveals[i].getBoundingClientRect().top;
-    var revealPoint = 50;
-
-    if (revealTop < windowHeight - revealPoint) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
 
 export const ServicesLanding = () => {
   const services = Array.from({ length: 5 }, () => defaultService);
