@@ -6,6 +6,7 @@ import serviciu3 from "./../../assets/world-grid.png";
 import serviciu4 from "./../../assets/medical-checkup.png";
 import serviciu5 from "./../../assets/smartphone (1).png";
 import serviciu6 from "./../../assets/telecommunication.png";
+import { Link } from "react-router-dom";
 
 export const Feature = () => {
   return (
@@ -25,7 +26,10 @@ export const Feature = () => {
           </svg>
         </div>
         <div className="center">
-        <h1 className="services-Title main-color reveal"><span className="dark">Our</span> Services</h1></div>
+          <h1 className="services-Title main-color reveal">
+            <span className="dark">Our</span> Services
+          </h1>
+        </div>
         <div className="container padz reveal">
           <div className="row">
             <div className="col-md-4 col-sm-6">
@@ -138,9 +142,9 @@ export const Feature = () => {
           </div>
 
           <div className="clearfix text-center col-md-12 col-sm-12">
-            <a href="#contact" className="btn btn-default smoothScroll">
+            <Link to={"/services"} className="btn btn-default smoothScroll">
               More about Our Services
-            </a>
+            </Link>
           </div>
         </div>
       </div>
