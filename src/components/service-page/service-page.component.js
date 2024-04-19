@@ -1,12 +1,9 @@
-import { useParams } from "react-router-dom";
+import { ServicesLanding } from "../services-landing/services-landing";
 
 export const ServicePage = () => {
-  const params = useParams();
-  const serviceName = params.serviceName;
-
   return (
-    <div className="container service-page-container">
-      <h1>Service {serviceName}</h1>
+    <div className="service-page-container">
+      <ServicesLanding />
     </div>
   );
-};
+}

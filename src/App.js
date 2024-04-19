@@ -25,7 +25,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route path="/home" element={<HomePage />} />
-          <Route path="services/:serviceName" element={<ServicePage />} />
+          <Route path="/services" element={<ServicePage />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </HashRouter>
