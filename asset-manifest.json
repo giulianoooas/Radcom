@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Radcom/static/css/main.034a9657.css",
+    "main.js": "/Radcom/static/js/main.a15ffde9.js",
+    "static/js/453.9e5b14d7.chunk.js": "/Radcom/static/js/453.9e5b14d7.chunk.js",
+    "static/media/slide-2.jpg": "/Radcom/static/media/slide-2.aecee2f570508befcaeb.jpg",
+    "static/media/headway-5QgIuuBxKwM-unsplash.jpg": "/Radcom/static/media/headway-5QgIuuBxKwM-unsplash.507c721509a18e29c5b9.jpg",
+    "static/media/young-kyung-kim-7zQumtlvvfM-unsplash (2).jpg": "/Radcom/static/media/young-kyung-kim-7zQumtlvvfM-unsplash (2).af647b0520837f5a5b88.jpg",
+    "static/media/lisanto-OcAoMz6TJF8-unsplash.jpg": "/Radcom/static/media/lisanto-OcAoMz6TJF8-unsplash.b068219ed0a93545c01d.jpg",
+    "static/media/slide-1.jpg": "/Radcom/static/media/slide-1.12c5e481e2df025764b0.jpg",
+    "static/media/about-img.png": "/Radcom/static/media/about-img.27fcca4ded44d71c05b3.png",
+    "static/media/fontawesome-webfont.svg?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.750f99278d9bb59a0ee9.svg",
+    "static/media/et-line.svg": "/Radcom/static/media/et-line.613c7311d2d5a1dd7e49.svg",
+    "static/media/fontawesome-webfont.ttf?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.3aafdf0641262e5c3037.ttf",
+    "static/media/modal-bg.jpg": "/Radcom/static/media/modal-bg.52db90eb403e383f591b.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.e646f99c3a5716022363.woff",
+    "static/media/fontawesome-webfont.eot": "/Radcom/static/media/fontawesome-webfont.c85f891f3546f43416b8.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.45de4ef7020811727af5.woff2",
+    "static/media/et-line.woff": "/Radcom/static/media/et-line.d59b23856f66f9876c47.woff",
+    "static/media/et-line.eot": "/Radcom/static/media/et-line.3f5eecf9f3326c4d6d81.eot",
+    "static/media/et-line.ttf": "/Radcom/static/media/et-line.cc7129c849c81d254698.ttf",
+    "static/media/world-grid.png": "/Radcom/static/media/world-grid.e484a62594d00ce49a73.png",
+    "static/media/telecommunication.png": "/Radcom/static/media/telecommunication.c9238c2e16e1b0ae7984.png",
+    "static/media/european-union (3).png": "/Radcom/static/media/european-union (3).4fdd79741ec0cd79242c.png",
+    "static/media/smartphone (1).png": "/Radcom/static/media/smartphone (1).084986791112e59a0a99.png",
+    "static/media/medical-checkup.png": "/Radcom/static/media/medical-checkup.a045e76f31a76b231ee0.png",
+    "static/media/bus (1).png": "/Radcom/static/media/bus (1).d282feae39c0fd89ed4a.png",
+    "index.html": "/Radcom/index.html",
+    "main.034a9657.css.map": "/Radcom/static/css/main.034a9657.css.map",
+    "main.a15ffde9.js.map": "/Radcom/static/js/main.a15ffde9.js.map",
+    "453.9e5b14d7.chunk.js.map": "/Radcom/static/js/453.9e5b14d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.034a9657.css",
+    "static/js/main.a15ffde9.js"
+  ]
+}
