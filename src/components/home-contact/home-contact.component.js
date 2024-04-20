@@ -2,6 +2,7 @@ import "./home-contact.component.css";
 import image1 from "./../../assets/lisanto-OcAoMz6TJF8-unsplash.jpg";
 import image2 from "./../../assets/headway-5QgIuuBxKwM-unsplash.jpg";
 import image3 from "./../../assets/young-kyung-kim-7zQumtlvvfM-unsplash (2).jpg";
+import { Link } from "react-router-dom";
 
 export const HomeContact = () => {
   const articles = [
@@ -59,7 +60,7 @@ export const HomeContact = () => {
                   <div className="article-body">
                     <h2>{article.headerText}</h2>
                     <p>{article.contentText}</p>
-                    <a href="/" className="read-more">
+                    <Link to={"/home"} className="read-more">
                       {article.buttonText}
                       <span className="sr-only">about this is some title</span>
                       <svg
@@ -73,7 +74,7 @@ export const HomeContact = () => {
                           d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </article>

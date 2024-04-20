@@ -52,6 +52,8 @@
   position: absolute;
   z-index: 2;
   background-color: #fff;
+  top: 0;
+  left: 0;
 }
 
 .slide-image {
@@ -59,6 +61,8 @@
   width: 100%;
   position: absolute;
   z-index: 2;
+  top: 0;
+  left: 0;
 }
 
 .hidden {
