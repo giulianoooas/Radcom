@@ -28,6 +28,7 @@ export const HomeLanding = () => {
 
   return (
     <section id="home">
+      <div className="landing-home-blank"></div>
       <img src={slideImages[0]} alt="slide 1" className={imagesClasses[0]} />
       <img src={slideImages[1]} alt="slide 2" className={imagesClasses[1]} />
 

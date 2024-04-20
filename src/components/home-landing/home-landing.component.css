@@ -46,6 +46,14 @@
   border-color: transparent;
 }
 
+.landing-home-blank {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+}
+
 .slide-image {
   height: 100%;
   width: 100%;
