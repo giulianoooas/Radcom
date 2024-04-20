@@ -4,7 +4,9 @@ import "./navbar.component.css";
 import logo from "./../../assets/radcom_romania_logo.jpg";
 
 export const Navbar = () => {
+  const navbarElement = document.getElementById("navbarSupportedContent");
   const location = useLocation();
+
   const navbarItems = {
     home: {
       path: "/home",
@@ -28,6 +30,10 @@ export const Navbar = () => {
 
       navbarItem.className = className;
     });
+
+    if (navbarElement && navbarElement.classList.contains("show")) {
+      navbarElement.classList.remove("show");
+    }
   };
   putClasses();
 
