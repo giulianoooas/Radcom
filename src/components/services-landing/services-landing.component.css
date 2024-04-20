@@ -64,6 +64,10 @@
   line-height: 28px;
 }
 
+.introduction .text {
+  color: #000;
+}
+
 .logo {
   height: 10rem;
   width: 10rem;
@@ -102,8 +106,6 @@
   display: flex;
   width: 100%;
   margin-top: 1rem;
-  border-right: 100vw solid transparent;
-  border-bottom: 4rem solid #fff;
 }
 
 .main .svg-container {
@@ -178,7 +180,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .container-services-landing {
     display: flex;
     justify-content: flex-start;
