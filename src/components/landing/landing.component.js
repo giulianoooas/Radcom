@@ -30,6 +30,7 @@ export const Landing = () => {
     <section id="home">
       <img src={slideImages[0]} alt="slide 1" className={imagesClasses[0]} />
       <img src={slideImages[1]} alt="slide 2" className={imagesClasses[1]} />
+
       <div className="container landing-container">
         <div className="row">
           <div className="col-md-offset-2 col-md-8 col-sm-12">

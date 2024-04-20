@@ -18,11 +18,13 @@ import "./global-styles/font-awesome.min.css";
 import { Footer } from "./components/footer/footer.component";
 import { HomePage } from "./components/home-page/home-page.component";
 import { ServicePage } from "./components/service-page/service-page.component";
+import { Navbar } from "./components/navbar/navbar.component";
 
 function App() {
   return (
     <div className="App">
       <HashRouter>
+        <Navbar />
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/services" element={<ServicePage />} />
