@@ -14,9 +14,6 @@ import "./global-styles/animate.min.css";
 import "./global-styles/et-line-font.css";
 import "./global-styles/font-awesome.min.css";
 
-// import custom js
-import "./components/services-landing/service-landing.script";
-
 // component imports
 import { Footer } from "./components/footer/footer.component";
 import { HomePage } from "./components/home-page/home-page.component";

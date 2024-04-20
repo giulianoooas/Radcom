@@ -29,24 +29,28 @@ export const ServicesLanding = () => {
           <div className="text">{introductionText}</div>
         </div>
       </div>
+      <div className="landing-section-border">
+        <div className="border1"></div>
+        <div className="border2"></div>
+      </div>
       {services.map((service, idx) => (
-        <div className={idx % 2 ? "secondary" : "main"} key={idx}>
-          <div className="row">
-            <svg
-              preserveAspectRatio="none"
-              viewBox="0 0 100 102"
-              height="100"
-              width="100%"
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-              className="svgcolor-light"
-            >
-              <path d="M0 0 L50 100 L100 0 Z"></path>
-            </svg>
-          </div>
-          <div className="containerz reveal">
-            <img src={service.imgSrc} />
-            <div className="info">
+        <div
+          className={
+            idx % 2
+              ? "secondary"
+              : "main" + " service-landing-element-container"
+          }
+          key={idx}
+        >
+          <div className="container-services-landing reveal">
+            <div className="col-lg-7">
+              <img
+                src={service.imgSrc}
+                alt="..."
+                className="mg-fluid mb-4 mb-lg-0"
+              />
+            </div>
+            <div className="info col-lg-5 lead">
               <div className="service-name main-color">Service Name</div>
               <div className="description">{service.text}</div>
               <div>
@@ -54,6 +58,12 @@ export const ServicesLanding = () => {
               </div>
             </div>
           </div>
+          {idx < services.length - 1 && (
+            <div className="svg-container">
+              <div className="border1"></div>
+              <div className="border2"></div>
+            </div>
+          )}
         </div>
       ))}
     </section>
