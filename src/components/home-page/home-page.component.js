@@ -1,16 +1,16 @@
-import { Landing } from "../landing/landing.component";
-import { About } from "../about/about.component";
-import { Feature } from "../feature/feature.component";
-import { Contact } from "../contact/contact.component";
 import "./home-page.component.css";
+import { HomeAbout } from "../home-about/home-about.component";
+import { HomeLanding } from "../home-landing/home-landing.component";
+import { HomeFeature } from "../home-feature/home-feature.component";
+import { HomeContact } from "../home-contact/home-contact.component";
 
 export const HomePage = () => {
   return (
     <div className="home-page-container">
-      <Landing />
-      <About />
-      <Feature />
-      <Contact />
+      <HomeLanding />
+      <HomeAbout />
+      <HomeFeature />
+      <HomeContact />
     </div>
   );
 };

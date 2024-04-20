@@ -1,7 +1,7 @@
-import "./about.component.css";
+import "./home-about.component.css";
 import aboutImage from "./../../assets/about-img.png";
 
-export const About = () => {
+export const HomeAbout = () => {
   return (
     <section id="about">
       <div className="container reveal about-section-container">

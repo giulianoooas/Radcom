@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import "./feature.component.css";
+import "./home-feature.component.css";
 import serviciu1 from "./../../assets/european-union (3).png";
 import serviciu2 from "./../../assets/bus (1).png";
 import serviciu3 from "./../../assets/world-grid.png";
@@ -8,7 +8,7 @@ import serviciu5 from "./../../assets/smartphone (1).png";
 import serviciu6 from "./../../assets/telecommunication.png";
 import { Link } from "react-router-dom";
 
-export const Feature = () => {
+export const HomeFeature = () => {
   return (
     <section id="feature">
       <div className="container">

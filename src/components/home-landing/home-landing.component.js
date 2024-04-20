@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import "./landing.component.css";
+import "./home-landing.component.css";
 import slide1 from "./../../assets/slide-1.jpg";
 import slide2 from "./../../assets/slide-2.jpg";
 
-export const Landing = () => {
+export const HomeLanding = () => {
   const defaultClass = "slide-image";
   const slideImages = [slide1, slide2];
   const [imagesClasses, setImageClasses] = useState([

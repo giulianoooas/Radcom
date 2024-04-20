@@ -1,9 +1,9 @@
-import "./contact.component.css";
+import "./home-contact.component.css";
 import image1 from "./../../assets/lisanto-OcAoMz6TJF8-unsplash.jpg";
 import image2 from "./../../assets/headway-5QgIuuBxKwM-unsplash.jpg";
 import image3 from "./../../assets/young-kyung-kim-7zQumtlvvfM-unsplash (2).jpg";
 
-export const Contact = () => {
+export const HomeContact = () => {
   return (
     <section id="contact">
       <div className="container reveal">
