@@ -44,6 +44,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg custom-navbar">
       <div className="container px-5">
         <div>
+          <img alt="logo" src={logo} className="logo-image" />
           <Link to="/home">
             <span className="navbar-brand">Radcom</span>
           </Link>
