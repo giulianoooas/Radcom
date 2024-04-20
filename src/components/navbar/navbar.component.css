@@ -1,0 +1,31 @@
+.logo-image {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.custom-navbar {
+  background-color: #434850;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  min-height: 10vh;
+  color: #fff !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}

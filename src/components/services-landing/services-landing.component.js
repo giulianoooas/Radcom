@@ -22,7 +22,6 @@ export const ServicesLanding = () => {
 
   return (
     <section className="services">
-      <nav className="navbar"></nav>
       <div className="landing-section">
         <div className="introduction">
           <div className="title main-color">Our Radcom Services</div>
@@ -36,9 +35,8 @@ export const ServicesLanding = () => {
       {services.map((service, idx) => (
         <div
           className={
-            idx % 2
-              ? "secondary"
-              : "main" + " service-landing-element-container"
+            (idx % 2 ? "secondary" : "main") +
+            " service-landing-element-container"
           }
           key={idx}
         >
