@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Radcom/static/css/main.526d5693.css",
-    "main.js": "/Radcom/static/js/main.c509d877.js",
+    "main.css": "/Radcom/static/css/main.10af4b27.css",
+    "main.js": "/Radcom/static/js/main.eb556756.js",
     "static/js/453.9e5b14d7.chunk.js": "/Radcom/static/js/453.9e5b14d7.chunk.js",
     "static/media/slide-2.jpg": "/Radcom/static/media/slide-2.aecee2f570508befcaeb.jpg",
     "static/media/headway-5QgIuuBxKwM-unsplash.jpg": "/Radcom/static/media/headway-5QgIuuBxKwM-unsplash.507c721509a18e29c5b9.jpg",
@@ -26,12 +26,12 @@
     "static/media/medical-checkup.png": "/Radcom/static/media/medical-checkup.a045e76f31a76b231ee0.png",
     "static/media/bus (1).png": "/Radcom/static/media/bus (1).d282feae39c0fd89ed4a.png",
     "index.html": "/Radcom/index.html",
-    "main.526d5693.css.map": "/Radcom/static/css/main.526d5693.css.map",
-    "main.c509d877.js.map": "/Radcom/static/js/main.c509d877.js.map",
+    "main.10af4b27.css.map": "/Radcom/static/css/main.10af4b27.css.map",
+    "main.eb556756.js.map": "/Radcom/static/js/main.eb556756.js.map",
     "453.9e5b14d7.chunk.js.map": "/Radcom/static/js/453.9e5b14d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.526d5693.css",
-    "static/js/main.c509d877.js"
+    "static/css/main.10af4b27.css",
+    "static/js/main.eb556756.js"
   ]
 }
