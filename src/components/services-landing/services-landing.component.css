@@ -97,7 +97,6 @@
   justify-content: space-between;
   width: 80%;
   min-height: 70vh;
-  padding-right: 5vw;
   padding-left: 10vw;
 }
 
@@ -122,10 +121,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
-
-.info {
-  padding-left: 10vh;
 }
 
 .service-name {
@@ -180,7 +175,7 @@
   }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
   .container-services-landing {
     display: flex;
     justify-content: flex-start;
@@ -218,5 +213,19 @@
 @media screen and (max-height: 700px) {
   .services .introduction {
     padding-top: 150px;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .info {
+    width: 50%;
+  }
+
+  .image-container {
+    width: 40%;
+  }
+
+  .image-container img {
+    width: 100%;
   }
 }

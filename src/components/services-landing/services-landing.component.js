@@ -41,7 +41,7 @@ export const ServicesLanding = () => {
           key={idx}
         >
           <div className="container-services-landing reveal">
-            <div className="col-lg-7">
+            <div className="col-lg-7 image-container">
               <img
                 src={service.imgSrc}
                 alt="..."
