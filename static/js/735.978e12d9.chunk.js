@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkRadcom=self.webpackChunkRadcom||[]).push([[735],{735:(e,a,c)=>{e.exports=c.p+"static/media/medical-checkup.a045e76f31a76b231ee0.png"}}]);

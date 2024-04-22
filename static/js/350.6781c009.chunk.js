@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkRadcom=self.webpackChunkRadcom||[]).push([[350],{350:(e,c,a)=>{e.exports=a.p+"static/media/telecommunication.c9238c2e16e1b0ae7984.png"}}]);

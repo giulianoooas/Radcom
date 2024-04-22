@@ -1,7 +1,17 @@
 {
   "files": {
-    "main.css": "/Radcom/static/css/main.35a4ae3e.css",
-    "main.js": "/Radcom/static/js/main.3ecfa0d8.js",
+    "main.css": "/Radcom/static/css/main.1737cfd3.css",
+    "main.js": "/Radcom/static/js/main.39f2ce0e.js",
+    "static/js/180.58fbda5d.chunk.js": "/Radcom/static/js/180.58fbda5d.chunk.js",
+    "static/js/337.e305fce6.chunk.js": "/Radcom/static/js/337.e305fce6.chunk.js",
+    "static/js/171.78c7ab8d.chunk.js": "/Radcom/static/js/171.78c7ab8d.chunk.js",
+    "static/js/312.7895a0e6.chunk.js": "/Radcom/static/js/312.7895a0e6.chunk.js",
+    "static/js/735.978e12d9.chunk.js": "/Radcom/static/js/735.978e12d9.chunk.js",
+    "static/js/265.16fa698d.chunk.js": "/Radcom/static/js/265.16fa698d.chunk.js",
+    "static/js/392.f0f97e0c.chunk.js": "/Radcom/static/js/392.f0f97e0c.chunk.js",
+    "static/js/753.0689ef69.chunk.js": "/Radcom/static/js/753.0689ef69.chunk.js",
+    "static/js/350.6781c009.chunk.js": "/Radcom/static/js/350.6781c009.chunk.js",
+    "static/js/145.f6a891fc.chunk.js": "/Radcom/static/js/145.f6a891fc.chunk.js",
     "static/js/453.9e5b14d7.chunk.js": "/Radcom/static/js/453.9e5b14d7.chunk.js",
     "static/media/slide-2.jpg": "/Radcom/static/media/slide-2.aecee2f570508befcaeb.jpg",
     "static/media/headway-5QgIuuBxKwM-unsplash.jpg": "/Radcom/static/media/headway-5QgIuuBxKwM-unsplash.507c721509a18e29c5b9.jpg",
@@ -10,6 +20,7 @@
     "static/media/slide-1.jpg": "/Radcom/static/media/slide-1.12c5e481e2df025764b0.jpg",
     "static/media/about-img.png": "/Radcom/static/media/about-img.27fcca4ded44d71c05b3.png",
     "static/media/fontawesome-webfont.svg?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.750f99278d9bb59a0ee9.svg",
+    "static/media/radcim logo blue (4).png": "/Radcom/static/media/radcim logo blue (4).adeb0726e1c32ebf9688.png",
     "static/media/et-line.svg": "/Radcom/static/media/et-line.613c7311d2d5a1dd7e49.svg",
     "static/media/fontawesome-webfont.ttf?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.3aafdf0641262e5c3037.ttf",
     "static/media/modal-bg.jpg": "/Radcom/static/media/modal-bg.52db90eb403e383f591b.jpg",
@@ -21,17 +32,18 @@
     "static/media/et-line.ttf": "/Radcom/static/media/et-line.cc7129c849c81d254698.ttf",
     "static/media/world-grid.png": "/Radcom/static/media/world-grid.e484a62594d00ce49a73.png",
     "static/media/telecommunication.png": "/Radcom/static/media/telecommunication.c9238c2e16e1b0ae7984.png",
-    "static/media/european-union (3).png": "/Radcom/static/media/european-union (3).4fdd79741ec0cd79242c.png",
-    "static/media/smartphone (1).png": "/Radcom/static/media/smartphone (1).084986791112e59a0a99.png",
+    "static/media/internet.png": "/Radcom/static/media/internet.72c75662b0dac9bf2083.png",
+    "static/media/european-union.png": "/Radcom/static/media/european-union.4fdd79741ec0cd79242c.png",
+    "static/media/smartphone.png": "/Radcom/static/media/smartphone.084986791112e59a0a99.png",
     "static/media/medical-checkup.png": "/Radcom/static/media/medical-checkup.a045e76f31a76b231ee0.png",
-    "static/media/bus (1).png": "/Radcom/static/media/bus (1).d282feae39c0fd89ed4a.png",
+    "static/media/bus.png": "/Radcom/static/media/bus.d282feae39c0fd89ed4a.png",
     "index.html": "/Radcom/index.html",
-    "main.35a4ae3e.css.map": "/Radcom/static/css/main.35a4ae3e.css.map",
-    "main.3ecfa0d8.js.map": "/Radcom/static/js/main.3ecfa0d8.js.map",
+    "main.1737cfd3.css.map": "/Radcom/static/css/main.1737cfd3.css.map",
+    "main.39f2ce0e.js.map": "/Radcom/static/js/main.39f2ce0e.js.map",
     "453.9e5b14d7.chunk.js.map": "/Radcom/static/js/453.9e5b14d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35a4ae3e.css",
-    "static/js/main.3ecfa0d8.js"
+    "static/css/main.1737cfd3.css",
+    "static/js/main.39f2ce0e.js"
   ]
 }
