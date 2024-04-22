@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import "./home-landing.component.css";
+import style from "./home-landing.component.css";
 import slide1 from "./../../assets/slide-1.jpg";
 import slide2 from "./../../assets/slide-2.jpg";
+import { Link } from "react-router-dom";
 
 export const HomeLanding = () => {
   const defaultClass = "slide-image";
@@ -27,7 +28,7 @@ export const HomeLanding = () => {
   }, []);
 
   return (
-    <section id="home">
+    <section id="home" style={style}>
       <div className="landing-home-blank"></div>
       <img src={slideImages[0]} alt="slide 1" className={imagesClasses[0]} />
       <img src={slideImages[1]} alt="slide 2" className={imagesClasses[1]} />
@@ -43,15 +44,15 @@ export const HomeLanding = () => {
                 Lorem ipsum <strong>dolor lorem</strong> ipsum{" "}
                 <strong>dolor lorem</strong> ipsum
               </h3>
-              <a
-                href="/"
+              <Link
+                to={"/home"}
                 data-toggle="modal"
                 data-target="#modal1"
                 className="btn btn-lg btn-success smoothScroll wow fadeInUp"
                 data-wow-delay="1.0s"
               >
                 About Us
-              </a>
+              </Link>
             </div>
           </div>
         </div>

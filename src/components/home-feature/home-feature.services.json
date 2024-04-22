@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "serviceName": "Medical",
+      "imageUrl": "medical-checkup.png",
+      "imageAlt": "medical",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+    },
+    {
+      "serviceName": "Transport",
+      "imageUrl": "bus.png",
+      "imageAlt": "transport",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+    },
+    {
+      "serviceName": "Internet",
+      "imageUrl": "internet.png",
+      "imageAlt": "internet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+    }
+  ],
+  [
+    {
+      "serviceName": "Telecom",
+      "imageUrl": "telecommunication.png",
+      "imageAlt": "telecom",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+    },
+    {
+      "serviceName": "European Programmes",
+      "imageUrl": "european-union.png",
+      "imageAlt": "european union",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+    },
+    {
+      "serviceName": "InterMobile/Mediane",
+      "imageUrl": "smartphone.png",
+      "imageAlt": "internet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+    }
+  ]
+]

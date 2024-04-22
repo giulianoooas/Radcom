@@ -1,4 +1,4 @@
-import "./home-contact.component.css";
+import style from "./home-contact.component.css";
 import image1 from "./../../assets/lisanto-OcAoMz6TJF8-unsplash.jpg";
 import image2 from "./../../assets/headway-5QgIuuBxKwM-unsplash.jpg";
 import image3 from "./../../assets/young-kyung-kim-7zQumtlvvfM-unsplash (2).jpg";
@@ -36,7 +36,7 @@ export const HomeContact = () => {
   ];
 
   return (
-    <section id="contact">
+    <section id="contact" style={style}>
       <div className="container reveal">
         <div className="row">
           <div className="section-title">

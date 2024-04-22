@@ -1,16 +1,11 @@
-/* eslint-disable jsx-a11y/alt-text */
-import "./home-feature.component.css";
-import serviciu1 from "./../../assets/european-union (3).png";
-import serviciu2 from "./../../assets/bus (1).png";
-import serviciu3 from "./../../assets/world-grid.png";
-import serviciu4 from "./../../assets/medical-checkup.png";
-import serviciu5 from "./../../assets/smartphone (1).png";
-import serviciu6 from "./../../assets/telecommunication.png";
+import style from "./home-feature.component.css";
+import services from "./home-feature.services.json";
 import { Link } from "react-router-dom";
+import Image from "../app-image/app-image-component";
 
 export const HomeFeature = () => {
   return (
-    <section id="feature">
+    <section id="feature" style={style}>
       <div className="container">
         <div className="row">
           <svg
@@ -30,122 +25,40 @@ export const HomeFeature = () => {
             <span className="dark">Our</span> Services
           </h1>
         </div>
-        <div className="container padz reveal">
-          <div className="row">
-            <div className="col-md-4 col-sm-6">
-              <div className="media wow fadeInUp" data-wow-delay="0.4s">
-                <div className="display-flex">
-                  <div className="media-object media-left">
-                    <img src={serviciu4} className="service-logo"></img>
-                  </div>
-                  <div className="media-body">
-                    <h2 className="media-heading">Medical</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque luctus lacus nulla, eget varius justo tristique
-                      ut.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div className="col-md-4 col-sm-6">
-              <div className="media wow fadeInUp" data-wow-delay="0.8s">
-                <div className="display-flex">
-                  <div className="media-object media-left">
-                    <img src={serviciu2} className="service-logo"></img>
-                  </div>
-                  <div className="media-body">
-                    <h2 className="media-heading">Transport</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque luctus lacus nulla, eget varius justo tristique
-                      ut.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4 col-sm-8">
-              <div className="media wow fadeInUp" data-wow-delay="1.2s">
-                <div className="display-flex">
-                  <div className="media-object media-left">
-                    <img src={serviciu3} className="service-logo"></img>
-                  </div>
-                  <div className="media-body">
-                    <h2 className="media-heading">Internet</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque luctus lacus nulla, eget varius justo tristique
-                      ut.
-                    </p>
+        {services.map((row, idxRow) => (
+          <div className="container padz reveal" key={`row${idxRow}`}>
+            <div className="row">
+              {row.map((service, idxService) => (
+                <div
+                  className="col-md-4 col-sm-6"
+                  key={`row${idxRow}-service${idxService}`}
+                >
+                  <div className="media wow fadeInUp" data-wow-delay="0.4s">
+                    <div className="display-flex">
+                      <div className="media-object media-left">
+                        <Image
+                          fileName={service.imageUrl}
+                          className="service-logo"
+                          alt={service.imageAlt}
+                        />
+                      </div>
+                      <div className="media-body">
+                        <h2 className="media-heading">{service.serviceName}</h2>
+                        <p>{service.description}</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
-        </div>
-      </div>
-      <div className="container padz reveal">
-        <div className="row">
-          <div className="col-md-4 col-sm-6">
-            <div className="media wow fadeInUp" data-wow-delay="0.4s">
-              <div className="display-flex">
-                <div className="media-object media-left">
-                  <img src={serviciu6} className="service-logo"></img>
-                </div>
-                <div className="media-body">
-                  <h2 className="media-heading">Telecom</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque luctus lacus nulla, eget varius justo tristique ut.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+        ))}
 
-          <div className="col-md-4 col-sm-6">
-            <div className="media wow fadeInUp" data-wow-delay="0.8s">
-              <div className="display-flex">
-                <div className="media-object media-left">
-                  <img src={serviciu1} className="service-logo"></img>
-                </div>
-                <div className="media-body">
-                  <h2 className="media-heading">European Programmes</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque luctus lacus nulla, eget varius justo tristique ut.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4 col-sm-8">
-            <div className="media wow fadeInUp" data-wow-delay="1.2s">
-              <div className="display-flex">
-                <div className="media-object media-left">
-                  <img src={serviciu5} className="service-logo"></img>
-                </div>
-                <div className="media-body">
-                  <h2 className="media-heading">Mobile/Media</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque luctus lacus nulla, eget varius justo tristique ut.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="clearfix text-center col-md-12 col-sm-12">
-            <Link to={"/services"} className="btn btn-default smoothScroll">
-              More about Our Services
-            </Link>
-          </div>
+        <div className="clearfix text-center col-md-12 col-sm-12">
+          <Link to={"/services"} className="btn btn-default smoothScroll">
+            More about Our Services
+          </Link>
         </div>
       </div>
     </section>

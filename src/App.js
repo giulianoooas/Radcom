@@ -30,8 +30,8 @@ function App() {
           <Route path="/services" element={<ServicePage />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
+        <Footer />
       </HashRouter>
-      <Footer />
     </div>
   );
 }

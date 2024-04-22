@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import "./navbar.component.css";
+import style from "./navbar.component.css";
 import logo from "./../../assets/radcom_romania_logo.jpg";
 
 export const Navbar = () => {
@@ -47,7 +47,7 @@ export const Navbar = () => {
   }, [location]);
 
   return (
-    <nav className="navbar navbar-expand-lg custom-navbar">
+    <nav className="navbar navbar-expand-lg custom-navbar" style={style}>
       <div className="container px-5">
         <div>
           <Link to="/home">

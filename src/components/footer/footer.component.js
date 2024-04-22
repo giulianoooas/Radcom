@@ -1,9 +1,9 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
-import "./footer.component.css";
+import { Link } from "react-router-dom";
+import style from "./footer.component.css";
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer style={style}>
       <div className="container">
         <div className="row">
           <svg
@@ -45,32 +45,36 @@ export const Footer = () => {
             </p>
             <ul className="social-icon">
               <li>
-                <a
-                  href="/"
-                  className="fa fa-facebook wow bounceIn"
-                  data-wow-delay="0.9s"
-                ></a>
+                <Link to={"/home"}>
+                  <span
+                    className="fa fa-facebook wow bounceIn"
+                    data-wow-delay="0.9s"
+                  ></span>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
-                  className="fa fa-twitter wow bounceIn"
-                  data-wow-delay="1.2s"
-                ></a>
+                <Link to={"/home"}>
+                  <span
+                    className="fa fa-twitter wow bounceIn"
+                    data-wow-delay="1.2s"
+                  ></span>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
-                  className="fa fa-behance wow bounceIn"
-                  data-wow-delay="1.4s"
-                ></a>
+                <Link to={"/home"}>
+                  <span
+                    className="fa fa-behance wow bounceIn"
+                    data-wow-delay="1.4s"
+                  ></span>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
-                  className="fa fa-dribbble wow bounceIn"
-                  data-wow-delay="1.6s"
-                ></a>
+                <Link to={"/home"}>
+                  <span
+                    className="fa fa-dribbble wow bounceIn"
+                    data-wow-delay="1.6s"
+                  ></span>
+                </Link>
               </li>
             </ul>
           </div>

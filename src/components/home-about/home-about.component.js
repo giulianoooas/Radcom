@@ -1,9 +1,9 @@
-import "./home-about.component.css";
+import style from "./home-about.component.css";
 import aboutImage from "./../../assets/about-img.png";
 
 export const HomeAbout = () => {
   return (
-    <section id="about">
+    <section id="about" style={style}>
       <div className="container reveal about-section-container">
         <div className="row">
           <div className="col-md-6 col-sm-12 image-container">

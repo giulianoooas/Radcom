@@ -1,4 +1,4 @@
-import "./services-landing.component.css";
+import style from "./services-landing.component.css";
 
 const defaultService = {
   imgSrc: "https://dummyimage.com/600x400/ededed/#1c3f9.png",
@@ -21,7 +21,7 @@ export const ServicesLanding = () => {
   const services = Array.from({ length: 5 }, () => defaultService);
 
   return (
-    <section className="services">
+    <section className="services" style={style}>
       <div className="landing-section">
         <div className="introduction">
           <div className="title main-color">Our Radcom Services</div>
