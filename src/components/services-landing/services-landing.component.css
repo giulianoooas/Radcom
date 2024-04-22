@@ -205,8 +205,10 @@
 }
 
 @media screen and (max-width: 1320px) {
-  .container-services-landing {
-    width: 90%;
+  .description {
+    display: flex;
+    text-align: center;
+    align-items: center;
   }
 }
 
