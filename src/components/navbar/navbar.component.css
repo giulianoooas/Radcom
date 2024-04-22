@@ -23,7 +23,7 @@
   top: 0;
   width: 100%;
   z-index: 2;
-  min-height: 10vh;
+  min-height: 5rem;
 }
 
 .custom-navbar .active {
