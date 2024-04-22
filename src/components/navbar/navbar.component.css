@@ -1,7 +1,14 @@
 .logo-image {
-  height: 3rem;
-  width: 3rem;
+  height: 4rem;
+  width: 4rem;
   margin-right: 0.5rem;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 500;
+  color: #1c3f95!important;
+  padding-left: 1rem;
 }
 
 .custom-navbar {
@@ -14,7 +21,9 @@
 }
 
 .custom-navbar span {
-  color: #fff !important;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 0.8rem!important;
 }
 
 .custom-navbar .active {
