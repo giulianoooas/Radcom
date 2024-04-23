@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Radcom/static/css/main.b07ceaba.css",
-    "main.js": "/Radcom/static/js/main.34ecfa79.js",
+    "main.css": "/Radcom/static/css/main.0e9fa3ab.css",
+    "main.js": "/Radcom/static/js/main.81d1ec93.js",
     "static/js/180.58fbda5d.chunk.js": "/Radcom/static/js/180.58fbda5d.chunk.js",
     "static/js/337.e305fce6.chunk.js": "/Radcom/static/js/337.e305fce6.chunk.js",
     "static/js/171.78c7ab8d.chunk.js": "/Radcom/static/js/171.78c7ab8d.chunk.js",
@@ -38,12 +38,12 @@
     "static/media/medical-checkup.png": "/Radcom/static/media/medical-checkup.a045e76f31a76b231ee0.png",
     "static/media/bus.png": "/Radcom/static/media/bus.d282feae39c0fd89ed4a.png",
     "index.html": "/Radcom/index.html",
-    "main.b07ceaba.css.map": "/Radcom/static/css/main.b07ceaba.css.map",
-    "main.34ecfa79.js.map": "/Radcom/static/js/main.34ecfa79.js.map",
+    "main.0e9fa3ab.css.map": "/Radcom/static/css/main.0e9fa3ab.css.map",
+    "main.81d1ec93.js.map": "/Radcom/static/js/main.81d1ec93.js.map",
     "453.9e5b14d7.chunk.js.map": "/Radcom/static/js/453.9e5b14d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b07ceaba.css",
-    "static/js/main.34ecfa79.js"
+    "static/css/main.0e9fa3ab.css",
+    "static/js/main.81d1ec93.js"
   ]
 }
