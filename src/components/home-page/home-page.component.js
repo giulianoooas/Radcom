@@ -3,6 +3,7 @@ import { HomeAbout } from "../home-about/home-about.component";
 import { HomeLanding } from "../home-landing/home-landing.component";
 import { HomeFeature } from "../home-feature/home-feature.component";
 import { HomeContact } from "../home-contact/home-contact.component";
+import { HomeProducts } from "../home-products/home-prouducts.component";
 
 export const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ export const HomePage = () => {
       <HomeLanding />
       <HomeAbout />
       <HomeFeature />
+      <HomeProducts />
       <HomeContact />
     </div>
   );
