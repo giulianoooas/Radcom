@@ -73,6 +73,11 @@ strong {
   color: #1c3f95;
 }
 
+.strong-main-color{
+  color: #1c3f95;
+  font-weight: 600;
+}
+
 .reveal{
   position: relative;
   transform: translateY(150px);
@@ -94,6 +99,7 @@ strong {
 #about,
 #feature,
 #contact,
+#products,
 footer {
   padding-top: 100px;
   padding-bottom: 100px;
