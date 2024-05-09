@@ -6,7 +6,8 @@ import logo from "./../../assets/radcom_romania_logo.jpg";
 export const Navbar = (props) => {
   const navbarElement = document.getElementById("navbarSupportedContent");
   const location = useLocation();
-  const defaultNavbarClassName = "navbar navbar-expand-lg custom-navbar";
+  const defaultNavbarClassName =
+    "navbar navbar-dark  navbar-expand-lg custom-navbar";
   const [navbarClassName, setNavbarClassName] = useState(
     defaultNavbarClassName
   );
@@ -70,7 +71,7 @@ export const Navbar = (props) => {
         </div>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler custom-navbar-button"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
