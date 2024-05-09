@@ -24,6 +24,7 @@
   width: 100%;
   z-index: 2;
   min-height: 5rem;
+  opacity: 1 !important;
 }
 
 .custom-navbar .active {
@@ -44,4 +45,8 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+.custom-navbar-hidden {
+  opacity: 0 !important;
 }

@@ -1,11 +1,15 @@
 import { Link, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import style from "./navbar.component.css";
 import logo from "./../../assets/radcom_romania_logo.jpg";
 
-export const Navbar = () => {
+export const Navbar = (props) => {
   const navbarElement = document.getElementById("navbarSupportedContent");
   const location = useLocation();
+  const defaultNavbarClassName = "navbar navbar-expand-lg custom-navbar";
+  const [navbarClassName, setNavbarClassName] = useState(
+    defaultNavbarClassName
+  );
 
   const navbarItems = {
     home: {
@@ -19,6 +23,16 @@ export const Navbar = () => {
       className: "nav-item",
     },
   };
+
+  useEffect(() => {
+    setNavbarClassName(
+      `${defaultNavbarClassName} ${
+        location.pathname.includes("home") && window.innerHeight > props.offset
+          ? " custom-navbar-hidden"
+          : ""
+      }`
+    );
+  }, [props.offset]);
 
   const putClasses = () => {
     Object.values(navbarItems).forEach((navbarItem) => {
@@ -47,7 +61,7 @@ export const Navbar = () => {
   }, [location]);
 
   return (
-    <nav className="navbar navbar-expand-lg custom-navbar" style={style}>
+    <nav className={navbarClassName} style={style}>
       <div className="container px-5">
         <div>
           <Link to="/home">

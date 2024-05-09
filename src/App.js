@@ -1,4 +1,5 @@
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 // import css
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -21,10 +22,19 @@ import { ServicePage } from "./components/service-page/service-page.component";
 import { Navbar } from "./components/navbar/navbar.component";
 
 function App() {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => setOffset(window.scrollY);
+    window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
     <div className="App">
       <HashRouter>
-        <Navbar />
+        <Navbar offset={offset} />
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/services" element={<ServicePage />} />
