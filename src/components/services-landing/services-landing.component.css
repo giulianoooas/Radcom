@@ -167,7 +167,7 @@
 
 @media screen and (max-width: 900px) {
   .container-services-landing {
-    margin-left: 1rem;
+    margin-left: 0;
   }
 
   .container-services-landing img {
