@@ -1,7 +1,9 @@
 .logo-image {
-  height: 4rem;
-  width: 4rem;
-  margin-right: 0.5rem;
+  width: 100%;
+}
+
+.navbar-logo-container {
+  width: 20%;
 }
 
 .custom-navbar span {
@@ -49,4 +51,16 @@ a:active {
 
 .custom-navbar-hidden {
   opacity: 0 !important;
+}
+
+@media screen and (max-width: 993px) {
+  .navbar-logo-container {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-logo-container {
+    width: 45%;
+  }
 }

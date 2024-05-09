@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import style from "./navbar.component.css";
-import logo from "./../../assets/radcom_romania_logo.jpg";
+import logo from "./../../assets/radcom_logo.svg";
 
 export const Navbar = (props) => {
   const navbarElement = document.getElementById("navbarSupportedContent");
@@ -64,7 +64,7 @@ export const Navbar = (props) => {
   return (
     <nav className={navbarClassName} style={style}>
       <div className="container px-5">
-        <div>
+        <div className="navbar-logo-container">
           <Link to="/home">
             <img alt="logo" src={logo} className="logo-image" />
           </Link>
