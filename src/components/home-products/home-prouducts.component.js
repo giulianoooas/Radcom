@@ -57,7 +57,7 @@ export const HomeProducts = () => {
 
         <div className="clearfix text-center col-md-12 col-sm-12">
           <Link to={"/services"} className="btn btn-default smoothScroll">
-            More about Our Services
+            More about Our Products
           </Link>
         </div>
       </div>

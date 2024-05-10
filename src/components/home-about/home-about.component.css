@@ -35,3 +35,13 @@
     width: 55%;
   }
 }
+
+
+@media screen and (width < 768px) {
+  .about-section-container{
+    text-align: center;
+  }
+  .about-section-container .text-container{
+    margin-top: 20px;
+  }
+}

@@ -18,7 +18,7 @@ export const HomeAbout = () => {
             <div className="about-thumb">
               <div className="section-title">
                 <h1 className="wow fadeIn" data-wow-delay="0.2s">
-                  our <span className="main-color">company</span>
+                  Who is <span className="main-color">Radcom</span>
                 </h1>
                 <h3 className="wow fadeInUp" data-wow-delay="0.4s">
                   Lorem <strong>ipsum dolor</strong> dolor lorem

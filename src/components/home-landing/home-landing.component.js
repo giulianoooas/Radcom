@@ -36,11 +36,11 @@ export const HomeLanding = () => {
       <div className="container landing-container">
         <div className="home-thumb landing-interior-container">
           <h1 className="wow fadeInUp background" data-wow-delay="0.4s">
-            Hello, we are <span className="main-color">Radcom</span>
+            <span className="main-color">Radcom</span>
           </h1>
           <h3 className="wow fadeInUp background" data-wow-delay="0.6s">
-            Lorem ipsum <strong>dolor lorem</strong> ipsum{" "}
-            <strong>dolor lorem</strong> ipsum
+            <strong>Hardware</strong> and <strong>software</strong> solutions{" "}
+            for <strong>public transport</strong> needs
           </h3>
           <Link
             to={"/home"}
