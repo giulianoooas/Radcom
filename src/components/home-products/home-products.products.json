@@ -14,7 +14,7 @@
       },
       {
         "serviceName": "Internet",
-        "imageUrl": "internet.png",
+        "imageUrl": "browser.png",
         "imageAlt": "internet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
       }
@@ -27,7 +27,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
       },
       {
-        "serviceName": "European Programmes",
+        "serviceName": "EU Programmes",
         "imageUrl": "european-union.png",
         "imageAlt": "european union",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
