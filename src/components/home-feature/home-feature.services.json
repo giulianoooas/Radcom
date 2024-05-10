@@ -1,22 +1,22 @@
 [
   [
     {
-      "serviceName": "Medical",
+      "serviceName": "iFleet",
       "imageUrl": "medical-checkup.png",
       "imageAlt": "medical",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+      "description": "iFleet is our Fleet Management System,.  With this system we help you plan your routes easily, see your fleet in real time and get customizable reports."
     },
     {
-      "serviceName": "Transport",
+      "serviceName": "OptiFare",
       "imageUrl": "bus.png",
       "imageAlt": "transport",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+      "description": "OptiFare, RADCOM's E-Ticketing System, boosts transport authority efficiency by overseeing all aspects of operations, enhancing transaction transparency and security, saving time, cutting costs, and combating fraud. It offers both card-based and account-based ticketing options."
     },
     {
-      "serviceName": "Internet",
-      "imageUrl": "internet.png",
+      "serviceName": "eXact",
+      "imageUrl": "browser.png",
       "imageAlt": "internet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
+      "description": "eXact is our system of processing and predicting the fleet's arrival times for passengers. The accuracy of arrival times in the stops is 1 minute. Passengers can see this information thorugh displays in stops or in vehicles, SMS or custom made mobile apps."
     }
   ],
   [
@@ -27,7 +27,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."
     },
     {
-      "serviceName": "European Programmes",
+      "serviceName": "EU Programmes",
       "imageUrl": "european-union.png",
       "imageAlt": "european union",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut."

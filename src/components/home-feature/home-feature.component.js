@@ -31,7 +31,7 @@ export const HomeFeature = () => {
             <div className="row">
               {row.map((service, idxService) => (
                 <div
-                  className="col-md-4 col-sm-6"
+                  className="col-md-4 col-sm-6 on-hover"
                   key={`row${idxRow}-service${idxService}`}
                 >
                   <div className="media wow fadeInUp" data-wow-delay="0.4s">
@@ -44,10 +44,11 @@ export const HomeFeature = () => {
                         />
                       </div>
                       <div className="media-body">
-                        <h2 className="media-heading">{service.serviceName}</h2>
+                        <h2 className="media-heading"><b>{service.serviceName}</b></h2>
                         <p>{service.description}</p>
                       </div>
                     </div>
+                    <button>Read more...</button>
                   </div>
                 </div>
               ))}
