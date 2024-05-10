@@ -409,20 +409,6 @@ footer {
   animation: ease;
 }
 
-#feature button {
-  padding: 10px 25px;
-  color: #111112;
-  background-color: transparent;
-  border-color: white;
-  border-radius: 12px;
-  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-}
 /* contact section  */
 #contact .form-control {
   background: transparent;
