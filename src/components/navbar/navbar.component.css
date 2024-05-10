@@ -27,6 +27,7 @@
   z-index: 2;
   min-height: 5rem;
   opacity: 1 !important;
+  padding: 0.5rem;
 }
 
 .custom-navbar .active {
