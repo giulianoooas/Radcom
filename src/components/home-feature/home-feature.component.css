@@ -60,9 +60,7 @@
   padding: 10px 25px;
   color: #111112;
   background-color: transparent;
-  border-color: white;
-  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
-  box-sizing: border-box;
+  border-color: #111112;
   cursor: pointer;
   display: flex;
   margin-left: auto;
@@ -70,7 +68,15 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 900px) {
+#feature button:hover {
+  font-weight: 500;
+}
+
+.home-service-container-row {
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1000px) {
   .home-service-container-row {
     flex-direction: column;
     align-items: center;
