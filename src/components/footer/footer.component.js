@@ -27,9 +27,9 @@ export const Footer = () => {
               <p>Services</p>
               <p>News</p>
               <p> Investors</p>
-              <p className="copyright-text">
+              <i className="copyright-text">
                 Copyright &copy; 2024 Your Company{" "}
-              </p>
+              </i>
             </div>
           </div>
 

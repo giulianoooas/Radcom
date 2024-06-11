@@ -5,16 +5,16 @@ export const HomeAbout = () => {
   return (
     <section id="about" style={style}>
       <div className="container reveal about-section-container">
-        <div className="row">
-          <div className="col-md-6 col-sm-12 image-container">
+        <div>
+          {/* <div className="col-md-6 col-sm-12 image-container">
             <img
               src={aboutImage}
               className="img-responsive wow fadeInUp"
               alt="About"
             ></img>
-          </div>
+          </div> */}
 
-          <div className="col-md-6 col-sm-12 text-container">
+          <div className="text-container">
             <div className="about-thumb">
               <div className="section-title">
                 <h1 className="wow fadeIn" data-wow-delay="0.2s">
@@ -23,7 +23,7 @@ export const HomeAbout = () => {
               </div>
               <div className="wow fadeInUp" data-wow-delay="0.6s">
                 <h2 className="wow fadeInUp" data-wow-delay="0.4s">
-                  Top 3 biggest  <strong>technology companies</strong> in Romania
+                  Top 3 biggest  <span className="main-color"><b>technology companies</b></span> in Romania
                 </h2>
                 <p>
                <span className="main-color">Radcom</span>  has developed and deployed end
@@ -51,9 +51,16 @@ important cu care Radcom a lucrat si sa
 explicam succint cum l-a ajutat.
                 </p>
               </div>
-            </div>
+            </div> 
           </div>
-        </div>
+         
+        </div><div className="col-md-6 col-sm-12 image-container">
+            <img
+              src={aboutImage}
+              className="img-responsive wow fadeInUp"
+              alt="About"
+            ></img>
+          </div>
       </div>
     </section>
   );
