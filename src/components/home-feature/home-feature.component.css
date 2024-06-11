@@ -93,6 +93,7 @@
 
 @media screen and (max-width: 1000px) {
   .home-service-container-row {
+    width: 100% !important;
     flex-direction: column;
     align-items: center;
     margin-bottom: 0 !important;

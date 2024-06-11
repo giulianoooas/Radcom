@@ -31,7 +31,7 @@ export const HomeFeature = () => {
             className="padz reveal home-feature-components-container"
             key={`row${idxRow}`}
           >
-            <div className="row home-service-container-row">
+            <div className="home-service-container-row">
               {row.map((service, idxService) => (
                 <div
                   className="on-hover home-service-container-row-element"
