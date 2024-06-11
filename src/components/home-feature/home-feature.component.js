@@ -28,10 +28,10 @@ export const HomeFeature = () => {
 
         {services.map((row, idxRow) => (
           <div className="container padz reveal" key={`row${idxRow}`}>
-            <div className="row">
+            <div className="row home-service-container-row">
               {row.map((service, idxService) => (
                 <div
-                  className="col-md-4 col-sm-6 on-hover"
+                  className="on-hover home-service-container-row-element"
                   key={`row${idxRow}-service${idxService}`}
                 >
                   <div className="media wow fadeInUp" data-wow-delay="0.4s">
@@ -44,7 +44,9 @@ export const HomeFeature = () => {
                         />
                       </div>
                       <div className="media-body">
-                        <h2 className="media-heading"><b>{service.serviceName}</b></h2>
+                        <h2 className="media-heading">
+                          <b>{service.serviceName}</b>
+                        </h2>
                         <p>{service.description}</p>
                       </div>
                     </div>

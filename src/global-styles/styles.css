@@ -71,23 +71,23 @@ strong {
   font-weight: 700;
 }
 
-.main-color{
+.main-color {
   color: #1c3f95;
 }
 
-.strong-main-color{
+.strong-main-color {
   color: #1c3f95;
   font-weight: 600;
 }
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: all 1.5s ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0px);
   opacity: 1;
 }
@@ -114,7 +114,7 @@ footer {
   padding-bottom: 10px;
 }
 #about .section-title h1 {
-  padding-bottom: 0px!important;
+  padding-bottom: 0px !important;
 }
 #contact .section-title {
   text-align: center;
@@ -372,7 +372,7 @@ footer {
 
 #feature p {
   color: #333;
-  height: 35vh;
+  min-height: 35vh;
 }
 
 #feature .btn {
@@ -395,7 +395,7 @@ footer {
   border-color: transparent;
 }
 
-.on-hover{
+.on-hover {
   padding-top: 20px;
   width: 28.5vw;
   margin: 0px 5px;
@@ -403,25 +403,11 @@ footer {
   border-radius: 25px;
 }
 
-.on-hover:hover{
+.on-hover:hover {
   background-color: #eee;
   animation: ease;
 }
 
-#feature button{
-  padding: 10px 25px;
-  color: #111112;
-  background-color: transparent;
-  border-color: white;
-  border-radius: 12px;
-  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
-  box-sizing: border-box;
-  cursor: pointer;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-}
 /* contact section  */
 #contact .form-control {
   background: transparent;
@@ -617,7 +603,6 @@ footer a:hover {
     height: 65vh;
   }
 
-
   #feature .col-md-4 {
     padding-bottom: 32px;
   }
@@ -762,9 +747,9 @@ Generic layout (demo looks)
   gap: 24px;
 }
 
-.container{
-  padding-left: 0!important;
-  padding-right: 0!important;
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 @media screen and (max-width: 960px) {
