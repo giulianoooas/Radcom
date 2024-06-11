@@ -6,7 +6,7 @@ import Image from "../app-image/app-image-component";
 export const HomeFeature = () => {
   return (
     <section id="feature" style={style}>
-      <div className="container">
+      <div className="features-container">
         <div className="row">
           <svg
             preserveAspectRatio="none"
@@ -27,7 +27,10 @@ export const HomeFeature = () => {
         </div>
 
         {services.map((row, idxRow) => (
-          <div className="container padz reveal" key={`row${idxRow}`}>
+          <div
+            className="padz reveal home-feature-components-container"
+            key={`row${idxRow}`}
+          >
             <div className="row home-service-container-row">
               {row.map((service, idxService) => (
                 <div
@@ -50,11 +53,14 @@ export const HomeFeature = () => {
                         <p>{service.description}</p>
                       </div>
                     </div>
-                    <div className="clearfix text-center col-md-12 col-sm-12">
-          <Link to={"https://macarieeee.github.io/RadcomProduct/"} className="btn smoothScroll">
-              Read more...
-          </Link>
-        </div>
+                    <div className="clearfix text-center col-md-12 col-sm-12 button">
+                      <Link
+                        to={"https://macarieeee.github.io/RadcomProduct/"}
+                        className="btn smoothScroll"
+                      >
+                        Read more...
+                      </Link>
+                    </div>
                   </div>
                 </div>
               ))}
