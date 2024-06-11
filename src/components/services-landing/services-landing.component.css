@@ -164,6 +164,11 @@
   border-color: #ffffff;
 }
 
+.secondary button:hover{
+  color:#d1cd4d;
+  background-color: #ffffff;
+}
+
 @media screen and (max-width: 900px) {
   .container-services-landing {
     margin-left: 0;

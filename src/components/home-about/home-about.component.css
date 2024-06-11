@@ -2,6 +2,10 @@
   margin-top: 0px;
 }
 
+#about h1{
+  font-size: 4rem;
+}
+
 #about .about-thumb {
   padding-top: 10px;
 }
@@ -14,16 +18,21 @@
 }
 
 #about .img-responsive {
-  width: 100%;
+  width: 35vw;
   border-radius: 16px;
+  height: 80vh;
+  margin-left: 40px;
 }
 
 .about-section-container > .image-container {
   width: 49%;
+  margin-left: 25px;
 }
 
 .about-section-container > .text-container {
-  width: 49%;
+  width: 40%;
+  text-align: left;
+  margin-right: 55px;
 }
 
 @media screen and (min-width: 1600px) {

@@ -14,3 +14,11 @@
   footer a:hover {
     color: #FF6;
   }
+
+  footer p{
+    cursor: pointer;
+  }
+
+  footer p:hover{
+    color: #fff;
+  }

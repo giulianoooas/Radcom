@@ -56,7 +56,7 @@ export const HomeProducts = () => {
         ))}
 
         <div className="clearfix text-center col-md-12 col-sm-12">
-          <Link to={"/services"} className="btn btn-default smoothScroll">
+          <Link to={"https://macarieeee.github.io/RadcomProductsPage/"} className="btn btn-default smoothScroll">
             More about Our Products
           </Link>
         </div>

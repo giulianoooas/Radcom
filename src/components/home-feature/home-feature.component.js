@@ -48,7 +48,11 @@ export const HomeFeature = () => {
                         <p>{service.description}</p>
                       </div>
                     </div>
-                    <button>Read more...</button>
+                    <div className="clearfix text-center col-md-12 col-sm-12">
+          <Link to={"https://macarieeee.github.io/RadcomProduct/"} className="btn smoothScroll">
+              Read more...
+          </Link>
+        </div>
                   </div>
                 </div>
               ))}

@@ -12,11 +12,11 @@
     color: #333;
   }
   
-  #feature .btn {
-      background: transparent;
-      border: 3px solid #ffffff;
+  #feature .btn-service{
+    background: transparent;
+      border: 3px solid #000000;
       border-radius: 0px;
-      color: #ffffff;
+      color: #000000;
       font-size: 18px;
       font-weight: 700;
       letter-spacing: 1px;
@@ -25,10 +25,31 @@
       -webkit-transition: all 0.4s ease-in-out;
       transition: all 0.4s ease-in-out;
   }
+
+  #feature .btn-service:hover {
+    background: #000000;
+    color: #ffffff;
+    border-color: transparent;
+  }
+  
+  #feature .btn {
+    background: transparent;
+    border: 3px solid #000000;
+    border-radius: 0px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 36px;
+    margin-top: 62px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
   
   #feature .btn:hover {
-    background: #ffffff;
-    color: #333;
+    background: #000000;
+    color: #ffffff;
     border-color: transparent;
   }
   
