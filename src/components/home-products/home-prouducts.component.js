@@ -6,7 +6,7 @@ import Image from "../app-image/app-image-component";
 export const HomeProducts = () => {
   return (
     <section id="products" style={style}>
-      <div className="container">
+      <div className="products-container">
         <div className="row">
           <svg
             className="svgcolor-light"
@@ -27,11 +27,14 @@ export const HomeProducts = () => {
         </div>
 
         {services.map((row, idxRow) => (
-          <div className="container padz reveal" key={`row${idxRow}`}>
-            <div className="row">
+          <div
+            className="padz reveal home-feature-components-container"
+            key={`row${idxRow}`}
+          >
+            <div className="home-product-container-row">
               {row.map((service, idxService) => (
                 <div
-                  className="col-md-4 col-sm-6"
+                  className="on-hover home-product-container-row-element"
                   key={`row${idxRow}-service${idxService}`}
                 >
                   <div className="media wow fadeInUp" data-wow-delay="0.4s">
@@ -44,9 +47,16 @@ export const HomeProducts = () => {
                         />
                       </div>
                       <div className="media-body">
-                        <h2 className="media-heading strong-main-color">{service.serviceName}</h2>
+                        <h2 className="media-heading">
+                          <b>{service.serviceName}</b>
+                        </h2>
                         <p>{service.description}</p>
                       </div>
+                    </div>
+                    <div className="clearfix text-center col-md-12 col-sm-12 button">
+                      <Link to={"/services"} className="btn smoothScroll">
+                        Read more...
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -56,7 +66,7 @@ export const HomeProducts = () => {
         ))}
 
         <div className="clearfix text-center col-md-12 col-sm-12">
-          <Link to={"https://macarieeee.github.io/RadcomProductsPage/"} className="btn btn-default smoothScroll">
+          <Link to={"/services"} className="btn btn-default smoothScroll">
             More about Our Products
           </Link>
         </div>
