@@ -53,6 +53,9 @@ export const ServicesLanding = (props) => {
           )}
 
           {idx === values.length - 1 && values.length % 2 === 0 && (
+            <div style={{ height: "1rem" }}></div>
+          )}
+          {idx === values.length - 1 && values.length % 2 === 0 && (
             <SvgSpecial
               colors={{
                 color1: "#fff",
