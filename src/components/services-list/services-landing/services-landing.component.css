@@ -159,12 +159,12 @@
   color: #ffffff;
 }
 
-.secondary button {
+.secondary .btn {
   color: #ffffff;
   border-color: #ffffff;
 }
 
-.secondary button:hover {
+.secondary .btn:hover {
   color: #d1cd4d;
   background-color: #ffffff;
 }
