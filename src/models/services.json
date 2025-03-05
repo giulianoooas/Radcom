@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Service 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Service"
@@ -10,6 +11,7 @@
     {
       "id": 2,
       "name": "Service 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Service"
@@ -17,6 +19,7 @@
     {
       "id": 3,
       "name": "Service 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Service"
@@ -31,6 +34,7 @@
     {
       "id": 5,
       "name": "Service 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Service"

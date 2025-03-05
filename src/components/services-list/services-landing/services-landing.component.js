@@ -1,4 +1,5 @@
 import style from "./services-landing.component.css";
+import Image from "../../app-image/app-image-component";
 
 export const ServicesLanding = (props) => {
   const { introductionText, values, mainTitle } = props.config;
@@ -25,8 +26,8 @@ export const ServicesLanding = (props) => {
         >
           <div className="container-services-landing reveal">
             <div className="col-lg-7 image-container">
-              <img
-                src={value.imgSrc}
+              <Image
+                fileName={value.imgSrc}
                 alt="..."
                 className="mg-fluid mb-4 mb-lg-0"
               />

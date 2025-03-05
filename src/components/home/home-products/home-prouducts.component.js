@@ -1,9 +1,14 @@
 import style from "./home-products.component.css";
-import products from "./home-products.products.json";
+import productConfig from "./../../../models/products.json";
 import { Link } from "react-router-dom";
 import Image from "../../app-image/app-image-component";
 
 export const HomeProducts = () => {
+  const products = [
+    productConfig.values.slice(0, 3),
+    productConfig.values.slice(3, 6),
+  ];
+
   return (
     <section id="products" style={style}>
       <div className="products-container">
@@ -41,14 +46,14 @@ export const HomeProducts = () => {
                     <div className="display-flex">
                       <div className="media-object media-left">
                         <Image
-                          fileName={product.imageUrl}
+                          fileName={product.imgSrc}
                           className="service-logo"
                           alt={product.imageAlt}
                         />
                       </div>
                       <div className="media-body">
                         <h2 className="media-heading">
-                          <b>{product.serviceName}</b>
+                          <b>{product.name}</b>
                         </h2>
                         <p>{product.description}</p>
                       </div>
