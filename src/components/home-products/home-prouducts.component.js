@@ -1,5 +1,5 @@
 import style from "./home-products.component.css";
-import services from "./home-products.products.json";
+import products from "./home-products.products.json";
 import { Link } from "react-router-dom";
 import Image from "../app-image/app-image-component";
 
@@ -26,13 +26,13 @@ export const HomeProducts = () => {
           </h1>
         </div>
 
-        {services.map((row, idxRow) => (
+        {products.map((row, idxRow) => (
           <div
             className="padz reveal home-feature-components-container"
             key={`row${idxRow}`}
           >
             <div className="home-product-container-row">
-              {row.map((service, idxService) => (
+              {row.map((product, idxService) => (
                 <div
                   className="on-hover home-product-container-row-element"
                   key={`row${idxRow}-service${idxService}`}
@@ -41,20 +41,20 @@ export const HomeProducts = () => {
                     <div className="display-flex">
                       <div className="media-object media-left">
                         <Image
-                          fileName={service.imageUrl}
+                          fileName={product.imageUrl}
                           className="service-logo"
-                          alt={service.imageAlt}
+                          alt={product.imageAlt}
                         />
                       </div>
                       <div className="media-body">
                         <h2 className="media-heading">
-                          <b>{service.serviceName}</b>
+                          <b>{product.serviceName}</b>
                         </h2>
-                        <p>{service.description}</p>
+                        <p>{product.description}</p>
                       </div>
                     </div>
                     <div className="clearfix text-center col-md-12 col-sm-12 button">
-                      <Link to={"/services"} className="btn smoothScroll">
+                      <Link to={"/products"} className="btn smoothScroll">
                         Read more...
                       </Link>
                     </div>
@@ -66,7 +66,7 @@ export const HomeProducts = () => {
         ))}
 
         <div className="clearfix text-center col-md-12 col-sm-12">
-          <Link to={"/services"} className="btn btn-default smoothScroll">
+          <Link to={"/products"} className="btn btn-default smoothScroll">
             More about Our Products
           </Link>
         </div>

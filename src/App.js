@@ -38,6 +38,7 @@ function App() {
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/services" element={<ServicePage />} />
+          <Route path="/products" element={<ServicePage />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
         <Footer />

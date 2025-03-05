@@ -23,6 +23,11 @@ export const Navbar = (props) => {
       label: "Services",
       className: "nav-item",
     },
+    products: {
+      path: "/products",
+      label: "Products",
+      className: "nav-item",
+    },
   };
 
   useEffect(() => {
