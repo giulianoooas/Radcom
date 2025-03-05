@@ -1,7 +1,15 @@
 {
   "files": {
-    "main.css": "/Radcom/static/css/main.b237468c.css",
-    "main.js": "/Radcom/static/js/main.7dfc40bb.js",
+    "main.css": "/Radcom/static/css/main.679b9881.css",
+    "main.js": "/Radcom/static/js/main.a1312af6.js",
+    "static/js/187.16ae3374.chunk.js": "/Radcom/static/js/187.16ae3374.chunk.js",
+    "static/js/131.f133e579.chunk.js": "/Radcom/static/js/131.f133e579.chunk.js",
+    "static/js/715.dd20ca71.chunk.js": "/Radcom/static/js/715.dd20ca71.chunk.js",
+    "static/js/541.c5e3f4cd.chunk.js": "/Radcom/static/js/541.c5e3f4cd.chunk.js",
+    "static/js/353.e82d95b0.chunk.js": "/Radcom/static/js/353.e82d95b0.chunk.js",
+    "static/js/162.6b90b829.chunk.js": "/Radcom/static/js/162.6b90b829.chunk.js",
+    "static/js/961.612f6717.chunk.js": "/Radcom/static/js/961.612f6717.chunk.js",
+    "static/js/28.533e14c0.chunk.js": "/Radcom/static/js/28.533e14c0.chunk.js",
     "static/js/850.029ec0a6.chunk.js": "/Radcom/static/js/850.029ec0a6.chunk.js",
     "static/js/180.58fbda5d.chunk.js": "/Radcom/static/js/180.58fbda5d.chunk.js",
     "static/js/337.e305fce6.chunk.js": "/Radcom/static/js/337.e305fce6.chunk.js",
@@ -16,6 +24,14 @@
     "static/js/350.6781c009.chunk.js": "/Radcom/static/js/350.6781c009.chunk.js",
     "static/js/145.f6a891fc.chunk.js": "/Radcom/static/js/145.f6a891fc.chunk.js",
     "static/js/453.9e5b14d7.chunk.js": "/Radcom/static/js/453.9e5b14d7.chunk.js",
+    "static/media/AudioSmartMaster.png": "/Radcom/static/media/AudioSmartMaster.59a4d2eb1f5cf13868da.png",
+    "static/media/EParkParkomerter.png": "/Radcom/static/media/EParkParkomerter.b523b8690aa2bf8ec0b8.png",
+    "static/media/LEDInformationDisplay.png": "/Radcom/static/media/LEDInformationDisplay.4981a3b5b2e5905d0b96.png",
+    "static/media/ECheckValidator.png": "/Radcom/static/media/ECheckValidator.a1365f813806fe060f0e.png",
+    "static/media/Amplifier.png": "/Radcom/static/media/Amplifier.46ca96e9b64d58f14297.png",
+    "static/media/Microphone.png": "/Radcom/static/media/Microphone.5a98e55cdb7434bd9841.png",
+    "static/media/ETrack.png": "/Radcom/static/media/ETrack.c457e5037eb20ce01f51.png",
+    "static/media/DriverConsole.png": "/Radcom/static/media/DriverConsole.a39c3aa552db106a85d3.png",
     "static/media/slide-2.jpg": "/Radcom/static/media/slide-2.aecee2f570508befcaeb.jpg",
     "static/media/headway-5QgIuuBxKwM-unsplash.jpg": "/Radcom/static/media/headway-5QgIuuBxKwM-unsplash.507c721509a18e29c5b9.jpg",
     "static/media/young-kyung-kim-7zQumtlvvfM-unsplash (2).jpg": "/Radcom/static/media/young-kyung-kim-7zQumtlvvfM-unsplash (2).af647b0520837f5a5b88.jpg",
@@ -43,12 +59,12 @@
     "static/media/medical-checkup.png": "/Radcom/static/media/medical-checkup.a045e76f31a76b231ee0.png",
     "static/media/bus.png": "/Radcom/static/media/bus.d282feae39c0fd89ed4a.png",
     "index.html": "/Radcom/index.html",
-    "main.b237468c.css.map": "/Radcom/static/css/main.b237468c.css.map",
-    "main.7dfc40bb.js.map": "/Radcom/static/js/main.7dfc40bb.js.map",
+    "main.679b9881.css.map": "/Radcom/static/css/main.679b9881.css.map",
+    "main.a1312af6.js.map": "/Radcom/static/js/main.a1312af6.js.map",
     "453.9e5b14d7.chunk.js.map": "/Radcom/static/js/453.9e5b14d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b237468c.css",
-    "static/js/main.7dfc40bb.js"
+    "static/css/main.679b9881.css",
+    "static/js/main.a1312af6.js"
   ]
 }
