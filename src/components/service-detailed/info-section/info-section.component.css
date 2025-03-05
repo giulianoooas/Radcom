@@ -1,0 +1,40 @@
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.info-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.info-text {
+  max-width: 50%;
+}
+
+.info-text h1 {
+  font-size: 32px;
+  color: #0a174e;
+}
+
+.info-text p {
+  font-size: 18px;
+  color: #4b5563;
+}
+
+.info-image img {
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .info-text {
+    max-width: 90%;
+  }
+}
