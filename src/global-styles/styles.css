@@ -453,20 +453,6 @@ footer a:hover {
   color: #ff6;
 }
 
-/* svg */
-.svgcolor-light {
-  /*position: absolute;
-  top: 0;
-  left: 0; */
-  position: relative;
-  bottom: 104px;
-}
-.svgcolor-light > path {
-  fill: white;
-  stroke: white;
-  stroke-width: 0;
-}
-
 /* modal */
 .modal-dialog .modal-content {
   background: url("../assets/modal-bg.jpg") no-repeat;
@@ -730,15 +716,6 @@ Generic layout (demo looks)
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-.articles {
-  display: grid;
-  max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: 24px;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
 }
 
 .container {

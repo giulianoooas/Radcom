@@ -12,8 +12,6 @@ import "wowjs/dist/wow.min.js";
 // custom global css import
 import "./global-styles/styles.css";
 import "./global-styles/animate.min.css";
-import "./global-styles/et-line-font.css";
-import "./global-styles/font-awesome.min.css";
 
 // component imports
 import { Footer } from "./components/footer/footer.component";
