@@ -1,8 +1,8 @@
 import { ServicesLanding } from "../services-landing/services-landing.component";
 import { useLocation } from "react-router-dom";
 import style from "./service-page.component.css";
-import servicesConfig from "./services.json";
-import productsConfig from "./products.json";
+import servicesConfig from "./../../../models/services.json";
+import productsConfig from "./../../../models/products.json";
 
 export const ServicePage = () => {
   const location = useLocation();

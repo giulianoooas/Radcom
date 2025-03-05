@@ -1,36 +1,41 @@
 {
   "values": [
     {
-      "name": "Product 1",
+      "id": 1,
+      "name": "Service 1",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-      "buttonText": "More about This Product"
+      "buttonText": "More about This Service"
     },
     {
-      "name": "Product 2",
+      "id": 2,
+      "name": "Service 2",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-      "buttonText": "More about This Product"
+      "buttonText": "More about This Service"
     },
     {
-      "name": "Product 3",
+      "id": 3,
+      "name": "Service 3",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-      "buttonText": "More about This Product"
+      "buttonText": "More about This Service"
     },
     {
-      "name": "Product 4",
+      "id": 4,
+      "name": "Service 4",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-      "buttonText": "More about This Product"
+      "buttonText": "More about This Service"
     },
     {
-      "name": "Product 5",
+      "id": 5,
+      "name": "Service 5",
       "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-      "buttonText": "More about This Product"
+      "buttonText": "More about This Service"
     }
   ],
   "introductionText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-  "mainTitle": "Our Radcom Products"
+  "mainTitle": "Our Radcom Services"
 }
