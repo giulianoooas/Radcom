@@ -1,6 +1,7 @@
 import style from "./services-landing.component.css";
 import Image from "../../shared/app-image/app-image-component";
 import { Link } from "react-router-dom";
+import { SvgSpecial } from "../../shared/svg-special/svg-special.component";
 
 export const ServicesLanding = (props) => {
   const { introductionText, values, mainTitle, defaultUrl } = props.config;
@@ -44,8 +45,7 @@ export const ServicesLanding = (props) => {
             </div>
           </div>
 
-          {((idx === values.length - 1 && values.length % 2 === 0) ||
-            idx < values.length - 1) && (
+          {idx < values.length - 1 && (
             <div className="svg-container">
               <div className="border1"></div>
               <div className="border2"></div>
@@ -53,7 +53,14 @@ export const ServicesLanding = (props) => {
           )}
 
           {idx === values.length - 1 && values.length % 2 === 0 && (
-            <div className="service-last-element"></div>
+            <SvgSpecial
+              colors={{
+                color1: "#fff",
+                color2: "#d1cd4d",
+                width1: 25,
+                width2: 25,
+              }}
+            />
           )}
         </div>
       ))}
