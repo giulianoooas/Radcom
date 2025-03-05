@@ -1,24 +1,25 @@
+footer {
+  background: #434850;
+  padding-top: 0;
+  width: 100%;
+}
 
-  footer {
-    background: #434850;
-  }
-  
-  footer .copyright-text {
-    padding-top: 10px;
-  }
-  
-  footer a {
-    color: #fff;
-  }
-  
-  footer a:hover {
-    color: #FF6;
-  }
+footer .copyright-text {
+  padding-top: 10px;
+}
 
-  footer p{
-    cursor: pointer;
-  }
+footer a {
+  color: #fff;
+}
 
-  footer p:hover{
-    color: #fff;
-  }
+footer a:hover {
+  color: #ff6;
+}
+
+footer p {
+  cursor: pointer;
+}
+
+footer p:hover {
+  color: #fff;
+}

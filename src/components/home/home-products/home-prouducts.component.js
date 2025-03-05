@@ -1,7 +1,8 @@
 import style from "./home-products.component.css";
 import productConfig from "./../../../models/products.json";
 import { Link } from "react-router-dom";
-import Image from "../../app-image/app-image-component";
+import Image from "../../shared/app-image/app-image-component";
+import { SvgSpecial } from "../../shared/svg-special/svg-special.component";
 
 export const HomeProducts = () => {
   const products = [
@@ -10,75 +11,72 @@ export const HomeProducts = () => {
   ];
 
   return (
-    <section id="products" style={style}>
-      <div className="products-container">
-        <div className="row">
-          <svg
-            className="svgcolor-light"
-            preserveAspectRatio="none"
-            viewBox="0 0 100 102"
-            height="100"
-            width="100%"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0 0 L50 100 L100 0 Z"></path>
-          </svg>
-        </div>
-        <div className="center">
-          <h1 className="services-Title main-color reveal">
-            <span className="dark">Our</span> products
-          </h1>
-        </div>
+    <>
+      <SvgSpecial
+        colors={{
+          color1: "#fff",
+          color2: "#d1cd4d",
+          width1: 5,
+          width2: 45,
+        }}
+      />
+      <section id="products" style={style}>
+        <div className="products-container">
+          <div className="center">
+            <h1 className="services-Title main-color reveal">
+              <span className="dark">Our</span> products
+            </h1>
+          </div>
 
-        {products.map((row, idxRow) => (
-          <div
-            className="padz reveal home-feature-components-container"
-            key={`row${idxRow}`}
-          >
-            <div className="home-product-container-row">
-              {row.map((product, idxService) => (
-                <div
-                  className="on-hover home-product-container-row-element"
-                  key={`row${idxRow}-service${idxService}`}
-                >
-                  <div className="media wow fadeInUp" data-wow-delay="0.4s">
-                    <div className="display-flex">
-                      <div className="media-object media-left">
-                        <Image
-                          fileName={product.imgSrc}
-                          className="service-logo"
-                          alt={product.imageAlt}
-                        />
+          {products.map((row, idxRow) => (
+            <div
+              className="padz reveal home-feature-components-container"
+              key={`row${idxRow}`}
+            >
+              <div className="home-product-container-row">
+                {row.map((product, idxService) => (
+                  <div
+                    className="on-hover home-product-container-row-element"
+                    key={`row${idxRow}-service${idxService}`}
+                  >
+                    <div className="media wow fadeInUp" data-wow-delay="0.4s">
+                      <div className="display-flex">
+                        <div className="media-object media-left">
+                          <Image
+                            fileName={product.imgSrc}
+                            className="service-logo"
+                            alt={product.imageAlt}
+                          />
+                        </div>
+                        <div className="media-body">
+                          <h2 className="media-heading">
+                            <b>{product.name}</b>
+                          </h2>
+                          <p>{product.description}</p>
+                        </div>
                       </div>
-                      <div className="media-body">
-                        <h2 className="media-heading">
-                          <b>{product.name}</b>
-                        </h2>
-                        <p>{product.description}</p>
+                      <div className="clearfix text-center col-md-12 col-sm-12 button">
+                        <Link
+                          to={`/products/${product.id}`}
+                          className="btn smoothScroll"
+                        >
+                          Read more...
+                        </Link>
                       </div>
-                    </div>
-                    <div className="clearfix text-center col-md-12 col-sm-12 button">
-                      <Link
-                        to={`/products/${product.id}`}
-                        className="btn smoothScroll"
-                      >
-                        Read more...
-                      </Link>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
 
-        <div className="clearfix text-center col-md-12 col-sm-12">
-          <Link to={"/products"} className="btn btn-default smoothScroll">
-            More about Our Products
-          </Link>
+          <div className="clearfix text-center col-md-12 col-sm-12">
+            <Link to={"/products"} className="btn btn-default smoothScroll">
+              More about Our Products
+            </Link>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };

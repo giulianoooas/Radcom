@@ -1,4 +1,4 @@
-import Image from "./../../app-image/app-image-component";
+import Image from "./../../shared/app-image/app-image-component";
 import style from "./feature-section.component.css";
 
 export const FeaturesSection = (props) => {

@@ -1,5 +1,5 @@
 import style from "./services-landing.component.css";
-import Image from "../../app-image/app-image-component";
+import Image from "../../shared/app-image/app-image-component";
 import { Link } from "react-router-dom";
 
 export const ServicesLanding = (props) => {
