@@ -1,7 +1,7 @@
 import style from "./home-feature.component.css";
 import services from "./home-feature.services.json";
 import { Link } from "react-router-dom";
-import Image from "../app-image/app-image-component";
+import Image from "../../app-image/app-image-component";
 
 export const HomeFeature = () => {
   return (

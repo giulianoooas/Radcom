@@ -1,0 +1,41 @@
+{
+  "values": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "buttonText": "More about This Product"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "buttonText": "More about This Product"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "buttonText": "More about This Product"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "buttonText": "More about This Product"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "buttonText": "More about This Product"
+    }
+  ],
+  "introductionText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+  "mainTitle": "Our Radcom Products"
+}

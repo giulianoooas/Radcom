@@ -389,12 +389,6 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-#feature .btn:hover {
-  background: #ffffff;
-  color: #333;
-  border-color: transparent;
-}
-
 .on-hover {
   padding-top: 20px;
   width: 28.5vw;
@@ -404,8 +398,8 @@ footer {
 }
 
 .on-hover:hover {
-  background-color: #eee;
-  animation: ease;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
 
 /* contact section  */

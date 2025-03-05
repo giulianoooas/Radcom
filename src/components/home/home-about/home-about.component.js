@@ -1,5 +1,5 @@
 import style from "./home-about.component.css";
-import aboutImage from "./../../assets/about-img.png";
+import aboutImage from "./../../../assets/about-img.png";
 
 export const HomeAbout = () => {
   return (
@@ -42,16 +42,32 @@ export const HomeAbout = () => {
                   takes care of everything
                 </h2>
                 <p>
-                  The solution package for our clients is full stack - software
-                  and hardware - so you don't have to get 2 providers to manage
-                  your ............
+                  To manage your <b>transport operations</b>. From{" "}
+                  <b>e-ticketing and fleet management </b>to{" "}
+                  <b>real-time passenger information and payment solutions</b>,
+                  we provide a seamlessly integrated ecosystem that ensures
+                  efficiency, security, and ease of use. With <b>RADCOM</b>, you
+                  get a single, reliable partner for all your{" "}
+                  <b>public transport technology needs</b>
                 </p>
                 <h2 className="wow fadeInUp" data-wow-delay="0.4s">
                   For example..
                 </h2>
                 <p>
-                  Aici as vrea sa dam un exemplu de client important cu care
-                  Radcom a lucrat si sa explicam succint cum l-a ajutat.
+                  RADCOM collaborated with{" "}
+                  <b>STB (Societatea de Transport București</b>), the public
+                  transportation operator in Bucharest, to implement a fully
+                  integrated solution for their transport network. This included
+                  the <b>OptiFare e-ticketing system</b>, which streamlined fare
+                  collection and allowed passengers to easily purchase and
+                  validate tickets through mobile apps, contactless cards, and
+                  vending machines. Additionally, RADCOM deployed the{" "}
+                  <b>Fleet fleet management system</b>i, enabling real-time
+                  vehicle tracking, route optimization, and improved dispatching
+                  processes. The result was a more efficient, user-friendly
+                  public transport system that significantly enhanced the
+                  commuter experience while optimizing operational efficiency
+                  for STB.
                 </p>
               </div>
             </div>
