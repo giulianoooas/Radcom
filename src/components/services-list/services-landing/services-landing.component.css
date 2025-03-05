@@ -164,8 +164,8 @@
   border-color: #ffffff;
 }
 
-.secondary button:hover{
-  color:#d1cd4d;
+.secondary button:hover {
+  color: #d1cd4d;
   background-color: #ffffff;
 }
 
@@ -206,6 +206,10 @@
   .services .introduction > .text {
     font-size: 12px;
   }
+}
+
+.service-last-element {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1320px) {

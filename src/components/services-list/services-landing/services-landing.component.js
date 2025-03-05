@@ -40,11 +40,13 @@ export const ServicesLanding = (props) => {
               </div>
             </div>
           </div>
-          {idx < values.length - 1 && (
-            <div className="svg-container">
-              <div className="border1"></div>
-              <div className="border2"></div>
-            </div>
+          <div className="svg-container">
+            <div className="border1"></div>
+            <div className="border2"></div>
+          </div>
+
+          {idx === values.length - 1 && (
+            <div className="service-last-element"></div>
           )}
         </div>
       ))}
