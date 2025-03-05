@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkRadcom=self.webpackChunkRadcom||[]).push([[31],{31:(a,s,u)=>{a.exports=u.p+"static/media/young-kyung-kim-7zQumtlvvfM-unsplash (2).af647b0520837f5a5b88.jpg"}}]);

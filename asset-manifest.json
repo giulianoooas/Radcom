@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Radcom/static/css/main.fb141922.css",
-    "main.js": "/Radcom/static/js/main.4fa82666.js",
+    "main.css": "/Radcom/static/css/main.23839dc8.css",
+    "main.js": "/Radcom/static/js/main.4b06545e.js",
     "static/js/187.16ae3374.chunk.js": "/Radcom/static/js/187.16ae3374.chunk.js",
     "static/js/131.f133e579.chunk.js": "/Radcom/static/js/131.f133e579.chunk.js",
     "static/js/715.dd20ca71.chunk.js": "/Radcom/static/js/715.dd20ca71.chunk.js",
@@ -13,7 +13,9 @@
     "static/js/850.029ec0a6.chunk.js": "/Radcom/static/js/850.029ec0a6.chunk.js",
     "static/js/180.58fbda5d.chunk.js": "/Radcom/static/js/180.58fbda5d.chunk.js",
     "static/js/337.e305fce6.chunk.js": "/Radcom/static/js/337.e305fce6.chunk.js",
+    "static/js/214.db267e65.chunk.js": "/Radcom/static/js/214.db267e65.chunk.js",
     "static/js/171.78c7ab8d.chunk.js": "/Radcom/static/js/171.78c7ab8d.chunk.js",
+    "static/js/855.336fe340.chunk.js": "/Radcom/static/js/855.336fe340.chunk.js",
     "static/js/312.7895a0e6.chunk.js": "/Radcom/static/js/312.7895a0e6.chunk.js",
     "static/js/735.978e12d9.chunk.js": "/Radcom/static/js/735.978e12d9.chunk.js",
     "static/js/265.16fa698d.chunk.js": "/Radcom/static/js/265.16fa698d.chunk.js",
@@ -23,6 +25,7 @@
     "static/js/753.0689ef69.chunk.js": "/Radcom/static/js/753.0689ef69.chunk.js",
     "static/js/350.6781c009.chunk.js": "/Radcom/static/js/350.6781c009.chunk.js",
     "static/js/145.f6a891fc.chunk.js": "/Radcom/static/js/145.f6a891fc.chunk.js",
+    "static/js/31.4397724b.chunk.js": "/Radcom/static/js/31.4397724b.chunk.js",
     "static/js/453.9e5b14d7.chunk.js": "/Radcom/static/js/453.9e5b14d7.chunk.js",
     "static/media/AudioSmartMaster.png": "/Radcom/static/media/AudioSmartMaster.59a4d2eb1f5cf13868da.png",
     "static/media/EParkParkomerter.png": "/Radcom/static/media/EParkParkomerter.b523b8690aa2bf8ec0b8.png",
@@ -38,17 +41,8 @@
     "static/media/lisanto-OcAoMz6TJF8-unsplash.jpg": "/Radcom/static/media/lisanto-OcAoMz6TJF8-unsplash.b068219ed0a93545c01d.jpg",
     "static/media/slide-1.jpg": "/Radcom/static/media/slide-1.12c5e481e2df025764b0.jpg",
     "static/media/about-img.png": "/Radcom/static/media/about-img.27fcca4ded44d71c05b3.png",
-    "static/media/fontawesome-webfont.svg?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.750f99278d9bb59a0ee9.svg",
     "static/media/radcim logo blue (4).png": "/Radcom/static/media/radcim logo blue (4).adeb0726e1c32ebf9688.png",
-    "static/media/et-line.svg": "/Radcom/static/media/et-line.613c7311d2d5a1dd7e49.svg",
-    "static/media/fontawesome-webfont.ttf?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.3aafdf0641262e5c3037.ttf",
     "static/media/modal-bg.jpg": "/Radcom/static/media/modal-bg.52db90eb403e383f591b.jpg",
-    "static/media/fontawesome-webfont.woff?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.e646f99c3a5716022363.woff",
-    "static/media/fontawesome-webfont.eot": "/Radcom/static/media/fontawesome-webfont.c85f891f3546f43416b8.eot",
-    "static/media/fontawesome-webfont.woff2?v=4.4.0": "/Radcom/static/media/fontawesome-webfont.45de4ef7020811727af5.woff2",
-    "static/media/et-line.woff": "/Radcom/static/media/et-line.d59b23856f66f9876c47.woff",
-    "static/media/et-line.eot": "/Radcom/static/media/et-line.3f5eecf9f3326c4d6d81.eot",
-    "static/media/et-line.ttf": "/Radcom/static/media/et-line.cc7129c849c81d254698.ttf",
     "static/media/browser.png": "/Radcom/static/media/browser.a79d278a0a101adeb537.png",
     "static/media/world-grid.png": "/Radcom/static/media/world-grid.e484a62594d00ce49a73.png",
     "static/media/telecommunication.png": "/Radcom/static/media/telecommunication.c9238c2e16e1b0ae7984.png",
@@ -59,12 +53,12 @@
     "static/media/medical-checkup.png": "/Radcom/static/media/medical-checkup.a045e76f31a76b231ee0.png",
     "static/media/bus.png": "/Radcom/static/media/bus.d282feae39c0fd89ed4a.png",
     "index.html": "/Radcom/index.html",
-    "main.fb141922.css.map": "/Radcom/static/css/main.fb141922.css.map",
-    "main.4fa82666.js.map": "/Radcom/static/js/main.4fa82666.js.map",
+    "main.23839dc8.css.map": "/Radcom/static/css/main.23839dc8.css.map",
+    "main.4b06545e.js.map": "/Radcom/static/js/main.4b06545e.js.map",
     "453.9e5b14d7.chunk.js.map": "/Radcom/static/js/453.9e5b14d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb141922.css",
-    "static/js/main.4fa82666.js"
+    "static/css/main.23839dc8.css",
+    "static/js/main.4b06545e.js"
   ]
 }
