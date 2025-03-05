@@ -1,5 +1,5 @@
 import style from "./home-about.component.css";
-import aboutImage from "./../../assets/about-img.png";
+import aboutImage from "./../../../assets/about-img.png";
 
 export const HomeAbout = () => {
   return (

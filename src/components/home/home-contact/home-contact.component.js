@@ -1,7 +1,7 @@
 import style from "./home-contact.component.css";
-import image1 from "./../../assets/lisanto-OcAoMz6TJF8-unsplash.jpg";
-import image2 from "./../../assets/headway-5QgIuuBxKwM-unsplash.jpg";
-import image3 from "./../../assets/young-kyung-kim-7zQumtlvvfM-unsplash (2).jpg";
+import image1 from "./../../../assets/lisanto-OcAoMz6TJF8-unsplash.jpg";
+import image2 from "./../../../assets/headway-5QgIuuBxKwM-unsplash.jpg";
+import image3 from "./../../../assets/young-kyung-kim-7zQumtlvvfM-unsplash (2).jpg";
 import { Link } from "react-router-dom";
 
 export const HomeContact = () => {

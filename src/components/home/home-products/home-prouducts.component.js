@@ -1,7 +1,7 @@
 import style from "./home-products.component.css";
 import products from "./home-products.products.json";
 import { Link } from "react-router-dom";
-import Image from "../app-image/app-image-component";
+import Image from "../../app-image/app-image-component";
 
 export const HomeProducts = () => {
   return (

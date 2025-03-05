@@ -17,8 +17,8 @@ import "./global-styles/font-awesome.min.css";
 
 // component imports
 import { Footer } from "./components/footer/footer.component";
-import { HomePage } from "./components/home-page/home-page.component";
-import { ServicePage } from "./components/service-page/service-page.component";
+import { HomePage } from "./components/home/home-page/home-page.component";
+import { ServicePage } from "./components/services-list/service-page/service-page.component";
 import { Navbar } from "./components/navbar/navbar.component";
 
 function App() {
