@@ -2,7 +2,6 @@ import style from "./svg-special.component.css";
 
 export const SvgSpecial = (props) => {
   const { color1, color2, width1, width2 } = props.colors;
-  console.log(props);
 
   return (
     <div className="svg-special-container" style={style}>

@@ -31,7 +31,7 @@ export const ServicesLanding = (props) => {
               <Image
                 fileName={value.imgSrc}
                 alt="..."
-                className="mg-fluid mb-4 mb-lg-0"
+                className="mg-fluid mb-4 mb-lg-0 service-landing-image"
               />
             </div>
             <div className="info col-lg-5 lead">
@@ -53,7 +53,7 @@ export const ServicesLanding = (props) => {
           )}
 
           {idx === values.length - 1 && values.length % 2 === 0 && (
-            <div style={{ height: "1rem" }}></div>
+            <div className="services-landing-extra-space"></div>
           )}
           {idx === values.length - 1 && values.length % 2 === 0 && (
             <SvgSpecial

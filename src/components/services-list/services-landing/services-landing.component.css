@@ -180,6 +180,10 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .services-landing-extra-space {
+    height: 2rem;
+  }
+
   .container-services-landing {
     display: flex;
     justify-content: flex-start;
@@ -237,5 +241,28 @@
 
   .image-container img {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px) {
+  .image-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-landing-image {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1320px) {
+  .image-container {
+    width: 40%;
+  }
+
+  .service-landing-image {
+    max-width: 100%;
   }
 }
