@@ -3,7 +3,6 @@ import style from "./feature-section.component.css";
 
 export const FeaturesSection = (props) => {
   const { name, moreImages } = props.product;
-  console.log(moreImages);
 
   return (
     <section className="features-section" style={style}>

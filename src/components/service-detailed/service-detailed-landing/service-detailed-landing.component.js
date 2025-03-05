@@ -17,11 +17,8 @@ export const ServiceDetailedLanding = () => {
 
     const config = path.includes("services") ? serviceConfig : productConfig;
     const id = Number(path.replace(`/${config.defaultUrl}/`, ""));
-    console.log(id);
 
     const currentElement = config.values.filter((elem) => elem.id === id)?.[0];
-
-    console.log(currentElement);
 
     if (!currentElement) {
       navigate("/home");
@@ -34,7 +31,7 @@ export const ServiceDetailedLanding = () => {
     <>
       <HeroSection product={currentElement}></HeroSection>
       <InfoSection product={currentElement}></InfoSection>
-      <FeaturesSection product={currentElement}></FeaturesSection>
+      {/* <FeaturesSection product={currentElement}></FeaturesSection> */}
     </>
   );
 };
