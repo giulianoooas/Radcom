@@ -1,9 +1,13 @@
 import style from "./home-feature.component.css";
-import services from "./home-feature.services.json";
+import serviceConfig from "./../../../models/services.json";
 import { Link } from "react-router-dom";
 import Image from "../../app-image/app-image-component";
 
 export const HomeFeature = () => {
+  const services = [
+    serviceConfig.values.slice(0, 3),
+  ];
+  
   return (
     <section id="feature" style={style}>
       <div className="features-container">
@@ -30,7 +34,7 @@ export const HomeFeature = () => {
           <div
             className="padz reveal home-feature-components-container"
             key={`row${idxRow}`}
-          >
+          > 
             <div className="home-service-container-row">
               {row.map((service, idxService) => (
                 <div
@@ -41,14 +45,13 @@ export const HomeFeature = () => {
                     <div className="display-flex">
                       <div className="media-object media-left">
                         <Image
-                          fileName={service.imageUrl}
+                          fileName={service.imgSrc}
                           className="service-logo"
-                          alt={service.imageAlt}
                         />
                       </div>
                       <div className="media-body">
                         <h2 className="media-heading">
-                          <b>{service.serviceName}</b>
+                          <b>{service.name}</b>
                         </h2>
                         <p>{service.description}</p>
                       </div>

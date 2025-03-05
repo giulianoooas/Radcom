@@ -16,7 +16,7 @@ export const HomeProducts = () => {
           <svg
             className="svgcolor-light"
             preserveAspectRatio="none"
-            viewBox="0 0 100 102"
+            viewBox="0 0 100 102" 
             height="100"
             width="100%"
             version="1.1"

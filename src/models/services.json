@@ -2,44 +2,29 @@
   "values": [
     {
       "id": 1,
-      "name": "Service 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "name": "iFleet",
+      "description": "Optimize your fleet operations with iFleet, our intelligent fleet management solution. Monitor vehicles in real time, streamline route planning, and generate insightful, customizable reports to enhance operational efficiency and improve decision-making.",
+      "imgSrc": "telecommunication.png",
+      "text": "iFleet provides transport operators with unparalleled control over their fleet operations. With real-time vehicle tracking, dynamic route planning, and advanced reporting capabilities, iFleet ensures operational efficiency and cost optimization. The system empowers operators to manage resources effectively while enhancing service reliability for passengers.",
       "buttonText": "More about This Service"
     },
     {
       "id": 2,
-      "name": "Service 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "name": "Optifare",
+      "description": "OptiFare is RADCOM's advanced e-ticketing solution, designed to improve efficiency, enhance security, and simplify fare collection. With support for both card-based and account-based ticketing, OptiFare offers seamless integration, real-time validation, and cost-effective operations tailored for modern public transport systems.",
+      "imgSrc": "telecommunication.png",
+      "text": "OptiFare revolutionizes fare collection with a modern, secure, and scalable e-ticketing solution. It empowers transport operators with seamless payment integration, real-time transaction validation, and enhanced fraud prevention. For passengers, it simplifies travel by offering multiple payment methods, including bank cards, mobile devices, and account-based options, ensuring a smooth and efficient urban mobility experience.",
       "buttonText": "More about This Service"
     },
     {
       "id": 3,
-      "name": "Service 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-      "buttonText": "More about This Service"
-    },
-    {
-      "id": 4,
-      "name": "Service 4",
-      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-      "buttonText": "More about This Service"
-    },
-    {
-      "id": 5,
-      "name": "Service 5",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "https://dummyimage.com/600x400/ededed/#1c3f9.png",
-      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+      "name": "eXact",
+      "description": "eXact is RADCOM's real-time passenger information solution, ensuring accurate fleet arrival predictions with an accuracy of up to 1 minute. Passengers can access live updates via station and vehicle displays, SMS notifications, or custom mobile apps, enhancing the convenience and reliability of public transport.",
+      "imgSrc": "telecommunication.png",
+      "text": "eXact delivers real-time updates to passengers, ensuring they always have accurate information about vehicle locations, arrival times, and optimal routes. Accessible via displays, mobile apps, and SMS, eXact enhances the travel experience by making public transport more predictable, reliable, and user-friendly.",
       "buttonText": "More about This Service"
     }
   ],
-  "introductionText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
+  "introductionText": "At RADCOM, we offer a comprehensive suite of intelligent solutions designed to revolutionize urban mobility and public transportation systems.  By combining advanced technology with a deep understanding of our clients' needs, our services help optimize operations, reduce costs, and improve the overall experience for passengers and operators alike.",
   "mainTitle": "Our Radcom Services"
 }
