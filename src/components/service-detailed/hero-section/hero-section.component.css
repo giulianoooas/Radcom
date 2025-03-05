@@ -4,7 +4,6 @@
   justify-content: space-around;
   background: #1c3f95;
   color: white;
-  padding: 50px;
   min-height: 500px;
   flex-wrap: wrap;
 }
@@ -55,7 +54,7 @@
 
 @media (max-width: 768px) {
   .hero-section {
-    margin-top: 2rem;
+    padding-top: calc(50px + 2.5rem);
     flex-direction: column;
     text-align: center;
   }
