@@ -73,5 +73,6 @@
     }
   ],
   "introductionText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
-  "mainTitle": "Our Radcom Products"
+  "mainTitle": "Our Radcom Products",
+  "defaultUrl": "products"
 }

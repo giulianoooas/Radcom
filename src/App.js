@@ -20,6 +20,7 @@ import { Footer } from "./components/footer/footer.component";
 import { HomePage } from "./components/home/home-page/home-page.component";
 import { ServicePage } from "./components/services-list/service-page/service-page.component";
 import { Navbar } from "./components/navbar/navbar.component";
+import { ServiceDetailedLanding } from "./components/service-detailed/service-detailed-landing/service-detailed-landing.component";
 
 function App() {
   const [offset, setOffset] = useState(0);
@@ -38,7 +39,9 @@ function App() {
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/services" element={<ServicePage />} />
+          <Route path="/services/:id" element={<ServiceDetailedLanding />} />
           <Route path="/products" element={<ServicePage />} />
+          <Route path="/products/:id" element={<ServiceDetailedLanding />} />
           <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
         <Footer />

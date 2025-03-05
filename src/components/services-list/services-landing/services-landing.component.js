@@ -1,8 +1,9 @@
 import style from "./services-landing.component.css";
 import Image from "../../app-image/app-image-component";
+import { Link } from "react-router-dom";
 
 export const ServicesLanding = (props) => {
-  const { introductionText, values, mainTitle } = props.config;
+  const { introductionText, values, mainTitle, defaultUrl } = props.config;
 
   return (
     <section className="services" style={style}>
@@ -36,7 +37,9 @@ export const ServicesLanding = (props) => {
               <div className="service-name main-color">{value.name}</div>
               <div className="description">{value.text}</div>
               <div>
-                <button className="btn">{value.buttonText}</button>
+                <Link to={`/${defaultUrl}/${value.id}`} className="btn">
+                  {value.buttonText}
+                </Link>
               </div>
             </div>
           </div>

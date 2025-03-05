@@ -6,14 +6,6 @@ export const HomeAbout = () => {
     <section id="about" style={style}>
       <div className="container reveal about-section-container">
         <div>
-          {/* <div className="col-md-6 col-sm-12 image-container">
-            <img
-              src={aboutImage}
-              className="img-responsive wow fadeInUp"
-              alt="About"
-            ></img>
-          </div> */}
-
           <div className="text-container">
             <div className="about-thumb">
               <div className="section-title">

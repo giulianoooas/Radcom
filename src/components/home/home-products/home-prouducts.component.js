@@ -16,7 +16,7 @@ export const HomeProducts = () => {
           <svg
             className="svgcolor-light"
             preserveAspectRatio="none"
-            viewBox="0 0 100 102" 
+            viewBox="0 0 100 102"
             height="100"
             width="100%"
             version="1.1"
@@ -59,7 +59,10 @@ export const HomeProducts = () => {
                       </div>
                     </div>
                     <div className="clearfix text-center col-md-12 col-sm-12 button">
-                      <Link to={"/products"} className="btn smoothScroll">
+                      <Link
+                        to={`/products/${product.id}`}
+                        className="btn smoothScroll"
+                      >
                         Read more...
                       </Link>
                     </div>

@@ -29,5 +29,6 @@
     }
   ],
   "introductionText": "At RADCOM, we offer a comprehensive suite of intelligent solutions designed to revolutionize urban mobility and public transportation systems.  By combining advanced technology with a deep understanding of our clients' needs, our services help optimize operations, reduce costs, and improve the overall experience for passengers and operators alike.",
-  "mainTitle": "Our Radcom Services"
+  "mainTitle": "Our Radcom Services",
+  "defaultUrl": "services"
 }

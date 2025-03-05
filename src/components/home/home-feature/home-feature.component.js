@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 import Image from "../../app-image/app-image-component";
 
 export const HomeFeature = () => {
-  const services = [
-    serviceConfig.values.slice(0, 3),
-  ];
-  
+  const services = [serviceConfig.values.slice(0, 3)];
+
   return (
     <section id="feature" style={style}>
       <div className="features-container">
@@ -34,7 +32,7 @@ export const HomeFeature = () => {
           <div
             className="padz reveal home-feature-components-container"
             key={`row${idxRow}`}
-          > 
+          >
             <div className="home-service-container-row">
               {row.map((service, idxService) => (
                 <div
@@ -58,7 +56,7 @@ export const HomeFeature = () => {
                     </div>
                     <div className="clearfix text-center col-md-12 col-sm-12 button">
                       <Link
-                        to={"https://macarieeee.github.io/RadcomProduct/"}
+                        to={`/services/${service.id}`}
                         className="btn smoothScroll"
                       >
                         Read more...

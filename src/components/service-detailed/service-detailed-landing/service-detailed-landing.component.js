@@ -1,10 +1,40 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import serviceConfig from "./../../../models/services.json";
 import productConfig from "./../../../models/products.json";
+import { HeroSection } from "../hero-section/hero-section.component";
+import { InfoSection } from "../info-section/info-section.component";
+import { FeaturesSection } from "../feature-section/feature-section.component";
 
 export const ServiceDetailedLanding = () => {
-  const services = serviceConfig.values;
-  const products = productConfig.values;
-
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const [currentElement, setCurrentElement] = useState({});
+
+  useEffect(() => {
+    const path = location.pathname;
+
+    const config = path.includes("services") ? serviceConfig : productConfig;
+    const id = Number(path.replace(`/${config.defaultUrl}/`, ""));
+    console.log(id);
+
+    const currentElement = config.values.filter((elem) => elem.id === id)?.[0];
+
+    console.log(currentElement);
+
+    if (!currentElement) {
+      navigate("/home");
+    }
+
+    setCurrentElement(currentElement);
+  }, [location]);
+
+  return (
+    <>
+      <HeroSection product={currentElement}></HeroSection>
+      <InfoSection product={currentElement}></InfoSection>
+      <FeaturesSection product={currentElement}></FeaturesSection>
+    </>
+  );
 };
