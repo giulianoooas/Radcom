@@ -1,5 +1,6 @@
 import style from "./home-about.component.css";
-import aboutImage from "./../../../assets/about-img.png";
+import "../../shared/app-image/app-image-component";
+import Image from "../../shared/app-image/app-image-component";
 
 export const HomeAbout = () => {
   return (
@@ -66,11 +67,11 @@ export const HomeAbout = () => {
           </div>
         </div>
         <div className="col-md-6 col-sm-12 image-container">
-          <img
-            src={aboutImage}
+          <Image
+            fileName="about-img.png"
             className="home-about-img-responsive wow fadeInUp"
             alt="About"
-          ></img>
+          />
         </div>
       </div>
     </section>

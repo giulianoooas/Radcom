@@ -5,6 +5,8 @@ import productConfig from "./../../../models/products.json";
 import { HeroSection } from "../hero-section/hero-section.component";
 import { InfoSection } from "../info-section/info-section.component";
 
+import "./service-detailed-landing.component.css";
+
 const ServiceDetailedLanding = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -27,10 +29,10 @@ const ServiceDetailedLanding = () => {
   }, [location.pathname]);
 
   return (
-    <>
+    <section className="service-detailed-landing-section">
       <HeroSection product={currentElement}></HeroSection>
       <InfoSection product={currentElement}></InfoSection>
-    </>
+    </section>
   );
 };
 
