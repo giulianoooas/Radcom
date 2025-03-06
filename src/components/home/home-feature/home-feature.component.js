@@ -37,7 +37,7 @@ export const HomeFeature = () => {
                     className="on-hover home-service-container-row-element"
                     key={`row${idxRow}-service${idxService}`}
                   >
-                    <div className="media wow fadeInUp" data-wow-delay="0.4s">
+                    <div className="media">
                       <div className="display-flex">
                         <div className="media-object media-left">
                           <Image

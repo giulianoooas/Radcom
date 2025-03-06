@@ -4,10 +4,3 @@
   font-weight: normal;
   src: local("Arial MT Light"), url("ARIALMTLIGHT.woff") format("woff");
 }
-
-@font-face {
-  font-family: "Arial MT Medium";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Arial MT Medium"), url("ARIALMTMEDIUM.woff") format("woff");
-}

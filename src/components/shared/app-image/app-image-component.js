@@ -36,7 +36,12 @@ const Image = ({ fileName, alt, className }) => {
       {loading ? (
         <LoadingSpinner className={className} />
       ) : (
-        <img src={image} alt={alt} className={className} />
+        <img
+          src={image}
+          alt={alt}
+          className={className}
+          style={{ borderRadius: "16px" }}
+        />
       )}
     </>
   );

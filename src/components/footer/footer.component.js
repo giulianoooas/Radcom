@@ -21,7 +21,7 @@ const Footer = () => {
               <h2>
                 <strong>Radcom</strong>
               </h2>
-              <div className="wow fadeInUp" data-wow-delay="0.3s">
+              <div>
                 <p>About Us</p>
                 <p>Services</p>
                 <p>News</p>
@@ -38,41 +38,29 @@ const Footer = () => {
               <h2>
                 <strong>Contact us</strong>
               </h2>
-              <p className="wow fadeInUp" data-wow-delay="0.6s">
+              <p>
                 120-240 aliquam augue libero, Convallis in vulputate 10220 San
                 Francisco, CA, USA
               </p>
               <ul className="social-icon">
                 <li>
                   <Link to={"/home"}>
-                    <span
-                      className="fa fa-facebook wow bounceIn"
-                      data-wow-delay="0.9s"
-                    ></span>
+                    <span className="fa fa-facebook"></span>
                   </Link>
                 </li>
                 <li>
                   <Link to={"/home"}>
-                    <span
-                      className="fa fa-twitter wow bounceIn"
-                      data-wow-delay="1.2s"
-                    ></span>
+                    <span className="fa fa-twitter"></span>
                   </Link>
                 </li>
                 <li>
                   <Link to={"/home"}>
-                    <span
-                      className="fa fa-behance wow bounceIn"
-                      data-wow-delay="1.4s"
-                    ></span>
+                    <span className="fa fa-behance"></span>
                   </Link>
                 </li>
                 <li>
                   <Link to={"/home"}>
-                    <span
-                      className="fa fa-dribbble wow bounceIn"
-                      data-wow-delay="1.6s"
-                    ></span>
+                    <span className="fa fa-dribbble"></span>
                   </Link>
                 </li>
               </ul>

@@ -10,12 +10,12 @@ export const HomeAbout = () => {
           <div className="text-container">
             <div className="about-thumb">
               <div className="section-title">
-                <h1 className="wow fadeIn" data-wow-delay="0.2s">
+                <h1>
                   Who is <span className="main-color">Radcom</span>
                 </h1>
               </div>
-              <div className="wow fadeInUp" data-wow-delay="0.6s">
-                <h2 className="wow fadeInUp" data-wow-delay="0.4s">
+              <div>
+                <h2>
                   Top 3 biggest{" "}
                   <span className="main-color">
                     <b>technology companies</b>
@@ -28,7 +28,7 @@ export const HomeAbout = () => {
                   fleet management and passenger information for more than 15
                   years.
                 </p>
-                <h2 className="wow fadeInUp" data-wow-delay="0.4s">
+                <h2>
                   <span className="main-color">
                     <b>Radcom</b>
                   </span>{" "}
@@ -43,9 +43,7 @@ export const HomeAbout = () => {
                   get a single, reliable partner for all your{" "}
                   <b>public transport technology needs</b>
                 </p>
-                <h2 className="wow fadeInUp" data-wow-delay="0.4s">
-                  For example..
-                </h2>
+                <h2>For example..</h2>
                 <p>
                   RADCOM collaborated with{" "}
                   <b>STB (Societatea de Transport București</b>), the public
@@ -69,7 +67,7 @@ export const HomeAbout = () => {
         <div className="col-md-6 col-sm-12 image-container">
           <Image
             fileName="about-img.png"
-            className="home-about-img-responsive wow fadeInUp"
+            className="home-about-img-responsive"
             alt="About"
           />
         </div>

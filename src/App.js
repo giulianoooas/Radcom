@@ -7,11 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import js
 import "jquery/dist/jquery.min.js";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "wowjs/dist/wow.min.js";
 
 // custom global css import
 import "./global-styles/styles.css";
-import "./global-styles/animate.min.css";
 import "./fonts/fonts.css";
 
 // component imports

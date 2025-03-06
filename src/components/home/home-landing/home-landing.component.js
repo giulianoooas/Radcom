@@ -35,10 +35,10 @@ export const HomeLanding = () => {
 
       <div className="container landing-container">
         <div className="home-thumb landing-interior-container">
-          <h1 className="wow fadeInUp background" data-wow-delay="0.4s">
+          <h1 className="background">
             <span className="main-color">Radcom</span>
           </h1>
-          <h3 className="wow fadeInUp background" data-wow-delay="0.6s">
+          <h3 className="background">
             <strong>Hardware</strong> and <strong>software</strong> solutions{" "}
             for <strong>public transport</strong> needs
           </h3>
@@ -46,8 +46,7 @@ export const HomeLanding = () => {
             to={"/home"}
             data-toggle="modal"
             data-target="#modal1"
-            className="btn btn-lg btn-success smoothScroll wow fadeInUp"
-            data-wow-delay="1.0s"
+            className="btn btn-lg btn-success smoothScroll"
           >
             About Us
           </Link>
