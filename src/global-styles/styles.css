@@ -455,7 +455,6 @@ footer a:hover {
 
 /* modal */
 .modal-dialog .modal-content {
-  background: url("../assets/modal-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
   border-radius: 0;
