@@ -4,9 +4,8 @@ import serviceConfig from "./../../../models/services.json";
 import productConfig from "./../../../models/products.json";
 import { HeroSection } from "../hero-section/hero-section.component";
 import { InfoSection } from "../info-section/info-section.component";
-import { FeaturesSection } from "../feature-section/feature-section.component";
 
-export const ServiceDetailedLanding = () => {
+const ServiceDetailedLanding = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -31,7 +30,8 @@ export const ServiceDetailedLanding = () => {
     <>
       <HeroSection product={currentElement}></HeroSection>
       <InfoSection product={currentElement}></InfoSection>
-      {/* <FeaturesSection product={currentElement}></FeaturesSection> */}
     </>
   );
 };
+
+export default ServiceDetailedLanding;

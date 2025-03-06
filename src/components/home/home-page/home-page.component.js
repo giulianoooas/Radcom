@@ -4,7 +4,7 @@ import { HomeLanding } from "../home-landing/home-landing.component";
 import { HomeFeature } from "../home-feature/home-feature.component";
 import { HomeProducts } from "../home-products/home-prouducts.component";
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <div className="home-page-container" style={style}>
       <HomeLanding />
@@ -14,3 +14,5 @@ export const HomePage = () => {
     </div>
   );
 };
+
+export default HomePage;

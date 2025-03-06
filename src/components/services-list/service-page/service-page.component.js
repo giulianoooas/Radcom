@@ -4,7 +4,7 @@ import style from "./service-page.component.css";
 import servicesConfig from "./../../../models/services.json";
 import productsConfig from "./../../../models/products.json";
 
-export const ServicePage = () => {
+const ServicePage = () => {
   const location = useLocation();
   const config = location.pathname.includes("services")
     ? servicesConfig
@@ -16,3 +16,5 @@ export const ServicePage = () => {
     </div>
   );
 };
+
+export default ServicePage;

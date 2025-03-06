@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 
 // import css
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,11 +14,22 @@ import "./global-styles/styles.css";
 import "./global-styles/animate.min.css";
 
 // component imports
+
+import LoadingSpinner from "./components/shared/loading-spinner/loading-spinner.component";
 import { Footer } from "./components/footer/footer.component";
-import { HomePage } from "./components/home/home-page/home-page.component";
-import { ServicePage } from "./components/services-list/service-page/service-page.component";
 import { Navbar } from "./components/navbar/navbar.component";
-import { ServiceDetailedLanding } from "./components/service-detailed/service-detailed-landing/service-detailed-landing.component";
+
+const HomePage = lazy(() =>
+  import("./components/home/home-page/home-page.component.js")
+);
+const ServicePage = lazy(() =>
+  import("./components/services-list/service-page/service-page.component.js")
+);
+const ServiceDetailedLanding = lazy(() =>
+  import(
+    "./components/service-detailed/service-detailed-landing/service-detailed-landing.component.js"
+  )
+);
 
 function App() {
   const [offset, setOffset] = useState(0);
@@ -34,14 +45,18 @@ function App() {
     <div className="App">
       <HashRouter>
         <Navbar offset={offset} />
-        <Routes>
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/services" element={<ServicePage />} />
-          <Route path="/services/:id" element={<ServiceDetailedLanding />} />
-          <Route path="/products" element={<ServicePage />} />
-          <Route path="/products/:id" element={<ServiceDetailedLanding />} />
-          <Route path="*" element={<Navigate to="/home" />} />
-        </Routes>
+
+        <Suspense fallback={<LoadingSpinner />}>
+          <Routes>
+            <Route path="/home" element={<HomePage />} />
+            <Route path="/services" element={<ServicePage />} />
+            <Route path="/services/:id" element={<ServiceDetailedLanding />} />
+            <Route path="/products" element={<ServicePage />} />
+            <Route path="/products/:id" element={<ServiceDetailedLanding />} />
+            <Route path="*" element={<Navigate to="/home" />} />
+          </Routes>
+        </Suspense>
+
         <Footer />
       </HashRouter>
     </div>
