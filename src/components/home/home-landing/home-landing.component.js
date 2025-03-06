@@ -42,14 +42,6 @@ export const HomeLanding = () => {
             <strong>Hardware</strong> and <strong>software</strong> solutions{" "}
             for <strong>public transport</strong> needs
           </h3>
-          <Link
-            to={"/home"}
-            data-toggle="modal"
-            data-target="#modal1"
-            className="btn btn-lg btn-success smoothScroll"
-          >
-            About Us
-          </Link>
         </div>
       </div>
     </section>
