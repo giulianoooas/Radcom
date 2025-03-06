@@ -1,14 +1,6 @@
-const LoadingSpinner = (props) => {
-  let bigDivClassName = "d-flex justify-content-center align-items-center";
-
-  if (props.className) {
-    bigDivClassName += ` ${props.className}`;
-  } else {
-    bigDivClassName += " vh-100";
-  }
-
+const LoadingSpinner = () => {
   return (
-    <div className={bigDivClassName}>
+    <div className="d-flex justify-content-center align-items-center vh-100">
       <div className="spinner-border text-primary" role="status">
         <span className="visually-hidden">Loading...</span>
       </div>

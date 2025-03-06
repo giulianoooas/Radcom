@@ -34,7 +34,13 @@ const Image = ({ fileName, alt, className }) => {
   return (
     <>
       {loading ? (
-        <LoadingSpinner className={className} />
+        <div
+          className={`d-flex justify-content-center align-items-center ${className}`}
+        >
+          <div className="spinner-border text-primary" role="status">
+            <span className="visually-hidden">Loading...</span>
+          </div>
+        </div>
       ) : (
         <img
           src={image}
