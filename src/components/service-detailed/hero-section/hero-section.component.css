@@ -29,32 +29,10 @@
   max-width: 300px;
 }
 
-.product-det-svg-container {
-  height: 4rem;
-  display: flex;
-  width: 100%;
-  margin-top: 1rem;
-}
-
-.product-det-border1 {
-  width: 50%;
-  background-color: #1c3f95;
-  height: 5rem;
-  border-right: 50vw solid transparent;
-  border-bottom: 5rem solid #fff;
-}
-
-.product-det-border2 {
-  width: 50%;
-  background-color: #fff;
-  height: 5rem;
-  border-right: 50vw solid transparent;
-  border-top: 5rem solid #1c3f95;
-}
-
 @media (max-width: 768px) {
   .hero-section {
     padding-top: calc(50px + 2.5rem);
+    padding-bottom: 2rem;
     flex-direction: column;
     text-align: center;
   }

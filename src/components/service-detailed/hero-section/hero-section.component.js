@@ -1,5 +1,6 @@
 import Image from "./../../shared/app-image/app-image-component";
 import style from "./hero-section.component.css";
+import { SvgSpecial } from "../../shared/svg-special/svg-special.component";
 
 export const HeroSection = (props) => {
   const { name, description, imgSrc } = props.product;
@@ -15,10 +16,15 @@ export const HeroSection = (props) => {
           <Image fileName={imgSrc} alt="Produs" height="50" />
         </div>
       </section>
-      <div className="product-det-svg-container">
-        <div className="product-det-border1"></div>
-        <div className="product-det-border2"></div>
-      </div>
+
+      <SvgSpecial
+        colors={{
+          color1: "#fff",
+          color2: "#1c3f95",
+          width1: 25,
+          width2: 25,
+        }}
+      />
     </div>
   );
 };

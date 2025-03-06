@@ -5,6 +5,16 @@ import { SvgSpecial } from "../../shared/svg-special/svg-special.component";
 
 export const ServicesLanding = (props) => {
   const { introductionText, values, mainTitle, defaultUrl } = props.config;
+  const possibleColors = [
+    {
+      color1: "#d1cd4d",
+      color2: "#fff",
+    },
+    {
+      color1: "#fff",
+      color2: "#d1cd4d",
+    },
+  ];
 
   return (
     <section className="services" style={style}>
@@ -14,10 +24,15 @@ export const ServicesLanding = (props) => {
           <div className="text">{introductionText}</div>
         </div>
       </div>
-      <div className="landing-section-border">
-        <div className="border1"></div>
-        <div className="border2"></div>
-      </div>
+
+      <SvgSpecial
+        colors={{
+          ...possibleColors[1],
+          width1: 0,
+          width2: 50,
+        }}
+      />
+
       {values.map((value, idx) => (
         <div
           className={
@@ -46,10 +61,13 @@ export const ServicesLanding = (props) => {
           </div>
 
           {idx < values.length - 1 && (
-            <div className="svg-container">
-              <div className="border1"></div>
-              <div className="border2"></div>
-            </div>
+            <SvgSpecial
+              colors={{
+                ...possibleColors[idx % 2],
+                width1: 0,
+                width2: 50,
+              }}
+            />
           )}
 
           {idx === values.length - 1 && values.length % 2 === 0 && (
