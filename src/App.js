@@ -16,9 +16,9 @@ import "./global-styles/animate.min.css";
 // component imports
 
 import LoadingSpinner from "./components/shared/loading-spinner/loading-spinner.component";
-import { Footer } from "./components/footer/footer.component";
-import { Navbar } from "./components/navbar/navbar.component";
 
+const Footer = lazy(() => import("./components/footer/footer.component"));
+const Navbar = lazy(() => import("./components/navbar/navbar.component"));
 const HomePage = lazy(() =>
   import("./components/home/home-page/home-page.component.js")
 );
@@ -44,9 +44,9 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-        <Navbar offset={offset} />
-
         <Suspense fallback={<LoadingSpinner />}>
+          <Navbar offset={offset} />
+
           <Routes>
             <Route path="/home" element={<HomePage />} />
             <Route path="/services" element={<ServicePage />} />
@@ -55,9 +55,8 @@ function App() {
             <Route path="/products/:id" element={<ServiceDetailedLanding />} />
             <Route path="*" element={<Navigate to="/home" />} />
           </Routes>
+          <Footer />
         </Suspense>
-
-        <Footer />
       </HashRouter>
     </div>
   );

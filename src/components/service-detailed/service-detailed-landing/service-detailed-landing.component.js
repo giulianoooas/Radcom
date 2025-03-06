@@ -24,7 +24,7 @@ const ServiceDetailedLanding = () => {
     }
 
     setCurrentElement(currentElement);
-  }, [location]);
+  }, [location.pathname]);
 
   return (
     <>

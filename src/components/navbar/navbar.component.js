@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import style from "./navbar.component.css";
 import logo from "./../../assets/radcom_logo.svg";
 
-export const Navbar = (props) => {
+const Navbar = (props) => {
   const navbarElement = document.getElementById("navbarSupportedContent");
   const location = useLocation();
   const defaultNavbarClassName =
@@ -64,7 +64,7 @@ export const Navbar = (props) => {
       left: 0,
       behavior: "instant",
     });
-  }, [location]);
+  }, [location.pathname]);
 
   return (
     <nav className={navbarClassName} style={style}>
@@ -103,3 +103,5 @@ export const Navbar = (props) => {
     </nav>
   );
 };
+
+export default Navbar;

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import style from "./footer.component.css";
 import { SvgSpecial } from "../shared/svg-special/svg-special.component";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
       <SvgSpecial
@@ -83,3 +83,5 @@ export const Footer = () => {
     </>
   );
 };
+
+export default Footer;
