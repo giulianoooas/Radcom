@@ -12,6 +12,7 @@ import "wowjs/dist/wow.min.js";
 // custom global css import
 import "./global-styles/styles.css";
 import "./global-styles/animate.min.css";
+import "./fonts/fonts.css";
 
 // component imports
 
