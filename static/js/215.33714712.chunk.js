@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkRadcom=self.webpackChunkRadcom||[]).push([[215],{215:(c,a,e)=>{c.exports=e.p+"static/media/about-img.27fcca4ded44d71c05b3.png"}}]);
