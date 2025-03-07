@@ -1,11 +1,12 @@
 .hero-section {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background: #1c3f95;
   color: white;
   min-height: 500px;
   flex-wrap: wrap;
+  padding: 50px;
 }
 
 .product-det-hero-container {
