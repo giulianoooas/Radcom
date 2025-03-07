@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkRadcom=self.webpackChunkRadcom||[]).push([[15],{15:(e,s,c)=>{e.exports=c.p+"static/media/slide-1.12c5e481e2df025764b0.jpg"}}]);
