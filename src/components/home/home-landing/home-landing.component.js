@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import style from "./home-landing.component.css";
-import slide1 from "./../../../assets/slide-1.jpg";
-import slide2 from "./../../../assets/slide-2.jpg";
-import { Link } from "react-router-dom";
+import slide1 from "./../../../assets/slide-1.webp";
+import slide2 from "./../../../assets/slide-2.webp";
 
 export const HomeLanding = () => {
   const defaultClass = "slide-image";

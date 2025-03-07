@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import LoadingSpinner from "../loading-spinner/loading-spinner.component";
 
 const useImage = (fileName) => {
   const [loading, setLoading] = useState(true);

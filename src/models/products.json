@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Amplifier",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "Amplifier.png",
+      "imgSrc": "Amplifier.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product",
       "moreImages": []
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Audio Smart Master",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "AudioSmartMaster.png",
+      "imgSrc": "AudioSmartMaster.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product",
       "moreImages": []
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "E-Check Validator",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "ECheckValidator.png",
+      "imgSrc": "ECheckValidator.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product",
       "moreImages": []
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "E-Park Parkometer",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "EParkParkomerter.png",
+      "imgSrc": "EParkParkomerter.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product",
       "moreImages": []
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "E-Track on board computer",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "ETrack.png",
+      "imgSrc": "ETrack.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product",
       "moreImages": []
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Driver Console",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "DriverConsole.png",
+      "imgSrc": "DriverConsole.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product"
     },
@@ -57,7 +57,7 @@
       "id": 7,
       "name": "LED Information Display",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "LEDInformationDisplay.png",
+      "imgSrc": "LEDInformationDisplay.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product",
       "moreImages": []
@@ -66,7 +66,7 @@
       "id": 8,
       "name": "Microphone",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus lacus nulla, eget varius justo tristique ut.",
-      "imgSrc": "Microphone.png",
+      "imgSrc": "Microphone.webp",
       "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, illo. Ipsam molestias laboriosam facere suscipit, nihil architect o earum illo fugit nisi eos omnis ipsa ratione impedit atque quibusdam libero fugiat.",
       "buttonText": "More about This Product",
       "moreImages": []
