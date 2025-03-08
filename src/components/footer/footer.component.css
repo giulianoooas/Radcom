@@ -2,6 +2,7 @@ footer {
   background: #434850;
   padding-top: 2rem;
   width: 100%;
+  color: #fff;
 }
 
 footer .copyright-text {
@@ -22,4 +23,16 @@ footer p {
 
 footer p:hover {
   color: #fff;
+}
+
+.footer-image {
+  max-width: 60%;
+}
+
+.footer-contact-detailed {
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  margin-bottom: 1rem;
 }

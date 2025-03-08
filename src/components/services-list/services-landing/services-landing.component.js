@@ -45,7 +45,7 @@ export const ServicesLanding = (props) => {
             <div className="col-lg-7 image-container">
               <Image
                 fileName={value.imgSrc}
-                alt="..."
+                alt={value.name}
                 className="mg-fluid mb-4 mb-lg-0 service-landing-image"
               />
             </div>

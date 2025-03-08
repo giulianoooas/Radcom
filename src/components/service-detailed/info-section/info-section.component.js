@@ -11,7 +11,7 @@ export const InfoSection = (props) => {
         <p>{text}</p>
       </div>
       <div className="info-image">
-        <Image fileName={imgSrc} alt="Info" />
+        <Image fileName={imgSrc} alt={name} />
       </div>
     </section>
   );

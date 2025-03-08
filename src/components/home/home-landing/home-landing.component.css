@@ -67,12 +67,12 @@
 
 .hidden {
   opacity: 0;
-  transition: 2s;
+  transition: 3s;
 }
 
 .shown {
   opacity: 1;
-  transition: 2s;
+  transition: 3s;
 }
 
 .landing-container {

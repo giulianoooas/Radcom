@@ -13,7 +13,7 @@ export const HeroSection = (props) => {
           <p>{description}</p>
         </div>
         <div className="hero-image">
-          <Image fileName={imgSrc} alt="Produs" height="50" />
+          <Image fileName={imgSrc} alt={name} height="50" />
         </div>
       </section>
 

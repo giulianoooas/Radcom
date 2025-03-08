@@ -43,6 +43,7 @@ export const HomeFeature = () => {
                           <Image
                             fileName={service.imgSrc}
                             className="service-logo"
+                            alt={service.name}
                           />
                         </div>
                         <div className="media-body">

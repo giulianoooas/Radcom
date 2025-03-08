@@ -14,7 +14,7 @@ export const FeaturesSection = (props) => {
           <div className="features-grid">
             {moreImages.map((image, index) => (
               <div key={index} className="feature-box">
-                <Image fileName={image.imgSrc} alt={image.title} />
+                <Image fileName={image.imgSrc} alt={image.name} />
                 <h3>{image.title}</h3>
               </div>
             ))}

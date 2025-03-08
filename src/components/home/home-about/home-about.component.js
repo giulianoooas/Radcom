@@ -66,7 +66,7 @@ export const HomeAbout = () => {
         </div>
         <div className="col-md-6 col-sm-12 image-container">
           <Image
-            fileName="about-img.png"
+            fileName="about-img.webp"
             className="home-about-img-responsive"
             alt="About"
           />

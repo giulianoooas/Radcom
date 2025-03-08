@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import style from "./footer.component.css";
 import { SvgSpecial } from "../shared/svg-special/svg-special.component";
+import Image from "./../shared/app-image/app-image-component";
 
 const Footer = () => {
+  const mail = "office@radcom.ro";
   return (
     <>
       <SvgSpecial
@@ -22,10 +24,12 @@ const Footer = () => {
                 <strong>Radcom</strong>
               </h2>
               <div>
-                <p>About Us</p>
-                <p>Services</p>
-                <p>News</p>
-                <p> Investors</p>
+                <div className="footer-link">
+                  <Link to={"/services"}>Services</Link>
+                </div>
+                <div className="footer-link">
+                  <Link to={"/products"}>Products</Link>
+                </div>
                 <i className="copyright-text">
                   Copyright &copy; {new Date().getFullYear()} Radcom
                 </i>
@@ -38,32 +42,19 @@ const Footer = () => {
               <h2>
                 <strong>Contact us</strong>
               </h2>
-              <p>
-                120-240 aliquam augue libero, Convallis in vulputate 10220 San
-                Francisco, CA, USA
-              </p>
-              <ul className="social-icon">
-                <li>
-                  <Link to={"/home"}>
-                    <span className="fa fa-facebook"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/home"}>
-                    <span className="fa fa-twitter"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/home"}>
-                    <span className="fa fa-behance"></span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/home"}>
-                    <span className="fa fa-dribbble"></span>
-                  </Link>
-                </li>
-              </ul>
+              <div className="footer-contact-detailed">
+                Radcom S.A. <br />
+                Strada George Constantinescu, nr. 2C, Etaj 5 & 6, <br />
+                Cod: 20339, Sector 2, Bucuresti, Romania <br />
+                fon: <br />
+                Et.6: +40-21-232.10.39 sau +40-31-824.40.00 <br />
+                Et.5:+40-21-233.03.88 <br />
+                Fax: <br />
+                Et.6:+40-21-232.10.68 <br />
+                Et.5:+40-21-233.03.87 <br />
+                E-mail:
+                <a href={`mailto:${mail}`}>{mail}</a> <br />
+              </div>
             </div>
           </div>
         </div>

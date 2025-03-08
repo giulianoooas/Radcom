@@ -45,7 +45,7 @@ export const HomeProducts = () => {
                           <Image
                             fileName={product.imgSrc}
                             className="service-logo home-product-logo"
-                            alt={product.imageAlt}
+                            alt={product.name}
                           />
                         </div>
                         <div className="media-body">
