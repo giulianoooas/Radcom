@@ -30,9 +30,11 @@ footer p:hover {
 }
 
 .footer-contact-detailed {
-  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-link {
+.footer-link,
+.footer-space-bottom {
   margin-bottom: 1rem;
 }

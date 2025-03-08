@@ -42,18 +42,21 @@ const Footer = () => {
               <h2>
                 <strong>Contact us</strong>
               </h2>
+
               <div className="footer-contact-detailed">
-                Radcom S.A. <br />
-                Strada George Constantinescu, nr. 2C, Etaj 5 & 6, <br />
-                Cod: 20339, Sector 2, Bucuresti, Romania <br />
-                fon: <br />
-                Et.6: +40-21-232.10.39 sau +40-31-824.40.00 <br />
-                Et.5:+40-21-233.03.88 <br />
-                Fax: <br />
-                Et.6:+40-21-232.10.68 <br />
-                Et.5:+40-21-233.03.87 <br />
-                E-mail:
-                <a href={`mailto:${mail}`}>{mail}</a> <br />
+                <span className="footer-space-bottom">
+                  <b>Radcom S.A.</b>
+                </span>
+
+                <span>2C George Constantinescu Street,</span>
+                <span>5th & 6th Floor, Zip: 20339, 2nd District,</span>
+                <span className="footer-space-bottom">Bucharest, Romania</span>
+
+                <span>Phone: +40-21-232.10.39 or +40-31-824.40.00</span>
+                <span>Fax: +40-21-232.10.68</span>
+                <div>
+                  E-mail: <a href={`mailto:${mail}`}>{mail}</a> <br />
+                </div>
               </div>
             </div>
           </div>
