@@ -17,16 +17,19 @@ const Navbar = (props) => {
       path: "/home",
       label: "Home",
       className: "nav-item",
+      active: false,
     },
     services: {
       path: "/services",
       label: "Services",
       className: "nav-item",
+      active: false,
     },
     products: {
       path: "/products",
       label: "Products",
       className: "nav-item",
+      active: false,
     },
   };
 
@@ -46,6 +49,7 @@ const Navbar = (props) => {
 
       if (location.pathname.includes(navbarItem.path)) {
         className = `${className} active`;
+        navbarItem.active = true;
       }
 
       navbarItem.className = className;
@@ -92,7 +96,11 @@ const Navbar = (props) => {
               <li className="nav-item" key={page}>
                 <Link to={navbarItem.path}>
                   <span className={navbarItem.className}>
-                    {navbarItem.label}
+                    {navbarItem.active ? (
+                      <b> {navbarItem.label}</b>
+                    ) : (
+                      navbarItem.label
+                    )}
                   </span>
                 </Link>
               </li>
