@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import style from "./footer.component.css";
 import { SvgSpecial } from "../shared/svg-special/svg-special.component";
-import Image from "./../shared/app-image/app-image-component";
 
 const Footer = () => {
   const mail = "office@radcom.ro";
