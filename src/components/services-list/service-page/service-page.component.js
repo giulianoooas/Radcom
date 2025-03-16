@@ -4,6 +4,7 @@ import style from "./service-page.component.css";
 import servicesConfig from "./../../../models/services.json";
 import productsConfig from "./../../../models/products.json";
 import { useEffect, useState } from "react";
+import { useTitle } from "../../../utils/use-title.function";
 
 const ServicePage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -19,6 +20,8 @@ const ServicePage = () => {
     );
     setIsLoading(false);
   }, [location.pathname]);
+
+  useTitle(config.tabTitle);
 
   return isLoading ? (
     <div className="d-flex justify-content-center align-items-center service-page-container">

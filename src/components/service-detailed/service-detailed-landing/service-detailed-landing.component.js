@@ -6,12 +6,21 @@ import { HeroSection } from "../hero-section/hero-section.component";
 import { InfoSection } from "../info-section/info-section.component";
 
 import "./service-detailed-landing.component.css";
+import { useTitle } from "../../../utils/use-title.function";
 
 const ServiceDetailedLanding = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const [currentElement, setCurrentElement] = useState({});
+  const [currentElement, setCurrentElement] = useState({
+    id: -1,
+    name: "..",
+    description: "...",
+    imgSrc: "Microphone.webp",
+    text: "...",
+    buttonText: "More about This Product",
+    moreImages: [],
+  });
 
   useEffect(() => {
     const path = location.pathname;
@@ -27,6 +36,8 @@ const ServiceDetailedLanding = () => {
 
     setCurrentElement(currentElement);
   }, [location.pathname]);
+
+  useTitle(currentElement.name);
 
   return (
     <section className="service-detailed-landing-section">
