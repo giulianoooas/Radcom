@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Radcom/static/css/main.114592ff.css",
+    "main.css": "/Radcom/static/css/main.7b280f0e.css",
     "main.js": "/Radcom/static/js/main.b2a28850.js",
     "static/css/610.cfd3a2a3.chunk.css": "/Radcom/static/css/610.cfd3a2a3.chunk.css",
     "static/js/610.f732a972.chunk.js": "/Radcom/static/js/610.f732a972.chunk.js",
@@ -44,6 +44,7 @@
     "static/media/AudioSmartMaster.webp": "/Radcom/static/media/AudioSmartMaster.b34eb2c3e95e85126c35.webp",
     "static/media/DriverConsole.webp": "/Radcom/static/media/DriverConsole.77a44078bff0aadf1253.webp",
     "static/media/slide-1.webp": "/Radcom/static/media/slide-1.e897df98b0aebabf10fc.webp",
+    "static/media/ARIALMTMEDIUM.woff": "/Radcom/static/media/ARIALMTMEDIUM.b85f1fe912021ec68c62.woff",
     "static/media/ARIALMTLIGHT.woff": "/Radcom/static/media/ARIALMTLIGHT.20c4073fa9bcde94db71.woff",
     "static/media/browser.png": "/Radcom/static/media/browser.a79d278a0a101adeb537.png",
     "static/media/world-grid.png": "/Radcom/static/media/world-grid.e484a62594d00ce49a73.png",
@@ -55,7 +56,7 @@
     "static/media/medical-checkup.png": "/Radcom/static/media/medical-checkup.a045e76f31a76b231ee0.png",
     "static/media/bus.png": "/Radcom/static/media/bus.d282feae39c0fd89ed4a.png",
     "index.html": "/Radcom/index.html",
-    "main.114592ff.css.map": "/Radcom/static/css/main.114592ff.css.map",
+    "main.7b280f0e.css.map": "/Radcom/static/css/main.7b280f0e.css.map",
     "main.b2a28850.js.map": "/Radcom/static/js/main.b2a28850.js.map",
     "610.cfd3a2a3.chunk.css.map": "/Radcom/static/css/610.cfd3a2a3.chunk.css.map",
     "610.f732a972.chunk.js.map": "/Radcom/static/js/610.f732a972.chunk.js.map",
@@ -70,7 +71,7 @@
     "453.9e5b14d7.chunk.js.map": "/Radcom/static/js/453.9e5b14d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.114592ff.css",
+    "static/css/main.7b280f0e.css",
     "static/js/main.b2a28850.js"
   ]
 }
