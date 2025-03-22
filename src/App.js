@@ -32,31 +32,30 @@ const ServiceDetailedLanding = lazy(() =>
 
 function App() {
   const [offset, setOffset] = useState(0);
-  const reveal = () => {
-    var reveals = document.querySelectorAll(".reveal");
 
-    for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
-      var revealTop = reveals[i].getBoundingClientRect().top;
-      var revealPoint = 150;
+  const onScroll = () => {
+    setOffset(window.scrollY);
+
+    const reveals = document.querySelectorAll(".reveal");
+
+    for (const reveal of reveals) {
+      const windowHeight = window.innerHeight;
+      const revealTop = reveal.getBoundingClientRect().top;
+      const revealPoint = 150;
 
       if (revealTop < windowHeight - revealPoint) {
-        reveals[i].classList.add("active");
+        reveal.classList.add("active");
       } else {
-        reveals[i].classList.remove("active");
+        reveal.classList.remove("active");
       }
     }
   };
 
-  const onScroll = () => setOffset(window.scrollY);
-
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
-    window.addEventListener("scroll", reveal);
 
     return () => {
       window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("scroll", reveal);
     };
   }, []);
 
