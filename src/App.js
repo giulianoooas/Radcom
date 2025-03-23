@@ -52,10 +52,14 @@ function App() {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", onScroll);
+    const abortController = new AbortController();
+
+    window.addEventListener("scroll", onScroll, {
+      signal: abortController.signal,
+    });
 
     return () => {
-      window.removeEventListener("scroll", onScroll);
+      abortController.abort();
     };
   }, []);
 
