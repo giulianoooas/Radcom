@@ -30,7 +30,7 @@ export const HomeProducts = () => {
 
           {products.map((row, idxRow) => (
             <div
-              className="padz reveal home-feature-components-container"
+              className="reveal home-feature-components-container"
               key={`row${idxRow}`}
             >
               <div className="home-product-container-row">

@@ -28,7 +28,7 @@ export const HomeFeature = () => {
 
           {services.map((row, idxRow) => (
             <div
-              className="padz reveal home-feature-components-container"
+              className="reveal home-feature-components-container"
               key={`row${idxRow}`}
             >
               <div className="home-service-container-row">
